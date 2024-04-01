@@ -1,0 +1,18 @@
+title: Courses
+template: runs/show
+layout: layout
+mount: 6edd40d9-f2c6-4f82-973b-98e2daea27aa
+revisions: false
+route: '{mount}/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+structure:
+  root: false
+  max_depth: 1

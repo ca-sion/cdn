@@ -1,0 +1,21 @@
+<div class="mx-auto w-full max-w-7xl px-5 pb-8 md:px-10 md:pb-12 lg:pb-16">
+
+    {{ taxonomy from="partners_categories" sort="order" }}
+    <h2 class="mb-5 mt-12 text-xl text-start text-primary font-bold">{{ title }}</h2>
+    <div class="row mb-4">
+        {{ collection from="partners" :taxonomy:partners_categories="slug" as="partners" }}
+        {{ if no_results }}
+        <p>Aucun partenaire.</p>
+        {{ /if }}
+        <div class="grid grid-cols-2 justify-items-center gap-8 sm:grid-cols-3 sm:gap-12 md:grid-cols-4 md:gap-6">
+        {{ partners sort="order" }}
+        <a class="flex justify-center items-center" href="{{ link }}">
+            <img src="{{ glide :src="logo.url" height="50" format="png" }}" alt="Logo {{ title }}" height="50" style="max-height: 50px;min-height: 30px;"
+                class="inline-block" />
+        </a>
+        {{ /partners }}
+    </div>
+    {{ /collection }}
+</div>
+{{ /taxonomy }}
+</div>

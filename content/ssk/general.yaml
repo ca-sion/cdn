@@ -1,0 +1,16 @@
+default:
+  titles_section: null
+  title_separator: '|'
+  site_name: 'Course de Noël'
+  favicon_section: null
+  global_favicon: null
+  global_favicon_svg: ssk/logo-cdn.svg
+  structured_data_section: null
+  structured_data_type: organization
+  structured_data_target_name: 'Course de Noël'
+  structured_data_logo: ssk/logo-cdn.png
+  custom_structured_data: null
+  structured_data_breadcrumbs_section: null
+  enable_structured_data_breadcrumbs: true
+  no_index_section: null
+  no_index_site: false

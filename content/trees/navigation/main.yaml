@@ -1,0 +1,37 @@
+tree:
+  -
+    id: b4e2034d-4db9-4f60-8813-d5fa0a274ca1
+    title: Participer
+    children:
+      -
+        id: e771757a-4ee9-40da-bc33-acd5e76c2c8a
+        entry: 298d23bc-4508-4a3a-b34d-575dda28e0d0
+      -
+        id: a2835b21-5c28-4234-b890-7b9734868db4
+        entry: 7364e9f2-a67f-428f-92eb-1562163d50f4
+      -
+        id: 6fa4eeb1-5285-4402-a699-18783f180bb2
+        entry: 9c0d8742-133d-42f7-a0cb-5be5f45232e5
+      -
+        id: 64d6cd03-2d6b-422d-a4f1-90b7c8bd820b
+        entry: 1fb08728-1d5a-4065-b8d6-e9dac9709f95
+  -
+    id: 2f82307e-29ef-423a-b83c-fb253200de3a
+    entry: 6edd40d9-f2c6-4f82-973b-98e2daea27aa
+    children:
+      -
+        id: f1ec31ad-6653-45ca-be26-96cb7b6fb729
+        entry: 3375831e-4769-4795-a956-ab5761ebf784
+      -
+        id: 2eef002e-22f3-4409-838f-952ecd9338e5
+        entry: ecad7304-7aa8-4778-97db-8596e9596fee
+      -
+        id: 93e64b5e-ab31-413e-b774-8d20fed01182
+        entry: c0cced97-4a1c-4e7d-beeb-fd8504cb40f1
+      -
+        id: 25422c86-4cd6-49ea-a98b-c7684a21578d
+        entry: 6edd40d9-f2c6-4f82-973b-98e2daea27aa
+        title: '– Toutes les courses'
+  -
+    id: 99f2bb81-ef97-4013-a99c-b79a43695f7a
+    entry: b234ddb5-1f54-4c29-9cbe-caf1b0f01b4f

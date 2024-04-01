@@ -1,0 +1,14 @@
+default:
+  social_section: null
+  seo_social_links:
+    -
+      id: lugzjb1k
+      social_icon: instagram
+      url: 'https://www.instagram.com/coursedenoelsion'
+  og_image_site: null
+  twitter_username: null
+  twitter_meta_section_site: null
+  twitter_card_type_site: summary
+  twitter_default_image_section: null
+  twitter_summary_image_site: null
+  twitter_summary_large_image_site: null

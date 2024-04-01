@@ -1,0 +1,29 @@
+/* ----------- CP Auth ----------- */
+.outside.rad-theme {
+    background: #ffffff;
+}
+.outside.rad-theme .auth-card,
+.outside.rad-theme .auth-card:focus-within,
+.outside.rad-theme .auth-card:hover {
+    box-shadow: 0 12px 34px rgb(50 50 93 / 40%), 0 3px 4px rgb(0 0 0 / 10%);
+}
+
+.outside.rad-theme .btn-dropdown-primary,
+.outside.rad-theme .btn-primary {
+    background: black !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)!important;
+}
+.outside.rad-theme .btn-dropdown-primary:hover,
+.outside.rad-theme .btn-primary:hover {
+    background: linear-gradient(45deg,gray,gray)!important;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(255,255,255,.3)!important;
+}
+
+.outside.rad-theme .forgot-password-link {
+    color: black;
+    text-shadow: none;
+}
+.auth-card {
+    max-width: 26rem;
+}

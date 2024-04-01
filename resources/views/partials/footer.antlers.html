@@ -1,0 +1,33 @@
+
+<footer class="bg-black text-white">
+    <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
+      <div class="flex flex-row justify-between max-[767px]:flex-col max-[767px]:items-start">
+        <div class="w-full max-w-[560px] max-[991px]:mr-4 max-[991px]:flex-initial max-[767px]:mr-0">
+          <h2 class="text-3xl font-semibold text-white md:text-5xl">
+            La doyenne des <span class="text-[#add7f2]">Courses</span> en Ville
+          </h2>
+        </div>
+        <div class="max-[991px]:ml-4 max-[991px]:flex-none max-[767px]:ml-0 max-[767px]:mt-8">
+          <div class="mb-4 flex max-w-[272px] items-start justify-start">
+            <iconify-icon icon="ph:map-pin" class="mr-3 inline-block" height="24"></iconify-icon>
+            <p>CA Sion - Course de Noël<br>Case postale 4057<br>1950 Sion 4</p>
+          </div>
+          <div class="mb-4 flex max-w-[272px] items-start justify-start">
+            <iconify-icon icon="mdi:mail-outline" class="mr-3 inline-block" height="24"></iconify-icon>
+            <p><a href="mailto:info@coursedenoel.ch">info@coursedenoel.ch</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-14 mt-16 w-full [border-bottom:1.7px_solid_rgb(0,_0,_0)]"></div>
+      <div class="flex flex-row justify-between max-[991px]:items-center max-[767px]:flex-col max-[767px]:items-start">
+        <div class="text-start font-semibold max-[991px]:ml-0 max-[991px]:mr-0 max-[991px]:py-1 max-[479px]:mb-4 sm:text-center">
+            {{ nav:footer }}
+            <a href="{{ url }}" class="inline-block py-1.5 pl-0 pr-6 font-normal text-[#bcb9b9] transition hover:text-secondary sm:py-2 sm:pr-6 lg:pr-12">{{ title }}</a>
+            {{ /nav:footer }}
+        </div>
+        <div class="max-[991px]:flex-none">
+          <p class="text-[#bcb9b9] max-[479px]:text-sm">Artisé par <a href="https://michaelravedoni.ch" class="hover:text-secondary transition">MR</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>

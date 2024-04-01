@@ -1,0 +1,19 @@
+name: 'Michael Ravedoni'
+super: true
+id: 668b8e8a-6f34-46cf-8776-6e9724209df3
+password_hash: $2y$10$l3yMG2sebDKF52rfA.CpF.yoNG8BRFvCedYDlaXkPnNExTVe7cUSu
+preferences:
+  collections:
+    partners:
+      columns:
+        - title
+        - logo
+        - partners_categories
+        - highlighted
+        - status
+  taxonomies:
+    partners_categories:
+      columns:
+        - title
+        - order
+        - slug

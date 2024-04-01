@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style & librairies -->
+    {{ vite src="resources/js/site.js|resources/css/site.css" }}
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.7/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.0.0/dist/iconify-icon.min.js"></script>
+
+
+
+    {{ ssk:head }}
+    {{ stack:head }}
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    {{ ssk:body }}
+    <div class="relative">
+
+        {{ partial:navigation}}
+
+        {{ template_content }}
+
+        {{ partial:footer}}
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    {{ ssk:footer }}
+    {{ stack:bottom }}
+</body>

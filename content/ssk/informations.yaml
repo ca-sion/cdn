@@ -1,0 +1,29 @@
+default:
+  details_section: null
+  name: 'Course de Noël'
+  description: "La Course de Noël se déroule chaque année au mois de décembre à travers les rues de la Vieille ville de Sion. Ces courses conviviales, sur une boucle d'un kilomètre, débutent par les catégories des plus jeunes pour terminer avec la course des Elites."
+  contact_section: null
+  email: info@coursedenoel.ch
+  phone: null
+  address: 'Case postale 4057'
+  postal_code: '1950'
+  locality: Sion
+  country: CH
+  geo_coordinates_section: null
+  geo_longitude: null
+  geo_latitude: null
+  google_maps_section: null
+  google_place_id: null
+  logo_section: null
+  logo: logo/logo-cdn.png
+  logo_white: null
+  logo_bw: null
+  logo_square: null
+  social_section: null
+  social_links:
+    -
+      id: lugzjl2y
+      social_icon: instagram
+      url: 'https://www.instagram.com/coursedenoelsion'
+  openning_hours_section: null
+  openning_hours: {  }
