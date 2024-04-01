@@ -1,6 +1,7 @@
 title: Link
 tabs:
   main:
+    display: Main
     sections:
       -
         fields:
@@ -8,29 +9,36 @@ tabs:
             handle: title
             field:
               type: text
+              required: true
+              validate:
+                - required
           -
             handle: redirect
             field:
-              type: group
-              required: true
-              width: '100'
-              fields:
-                -
-                  handle: url
-                  field:
-                    type: link
-                    required: true
-                    width: '100'
-                    display: Location
-                -
-                  handle: status
-                  field:
-                    type: radio
-                    inline: 'true'
-                    required: true
-                    options:
-                      301: '301 (Permanent)'
-                      302: '302 (Temporary)'
-                    width: '100'
-                    display: 'HTTP Status'
-                    default: 302
+              type: link
+              display: redirect
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

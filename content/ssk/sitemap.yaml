@@ -1,0 +1,10 @@
+default:
+  enable_sitemap: true
+  sitemap_cache_expiration: '180'
+  exclude_content_section: null
+  exclude_collections:
+    - partners
+  exclude_taxonomies:
+    - partners_categories
+  sitemap_taxonomies_section: null
+  sitemap_taxonomy_collection_map: {  }
