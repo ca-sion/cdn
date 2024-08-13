@@ -4,7 +4,7 @@ blueprint: run
 title: 'Challenge entreprises'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711977101
+updated_at: 1723557209
 icon: 'noto:running-shirt'
 use_meta_keywords: false
 no_index_page: false
@@ -117,7 +117,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '5 décembre 2023'
+                text: 'XX décembre YYYY'
       -
         type: listItem
         content:
@@ -269,7 +269,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '26 novembre 2023'
+                text: 'XX novembre YYYY'
       -
         type: listItem
         content:
