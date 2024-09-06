@@ -15,9 +15,9 @@
         <!-- Button Wrap -->
         <div class="flex">
             <a href="#direct" class="button-primary">Infos pratiques</a>
-            <a href="{{ registration_link ?? race:result_link }}" class="button-secondary">
+            <a href="{{ race:registration_link ?? race:result_link }}" class="button-secondary">
                 <iconify-icon icon="mdi:play-circle" class="mr-2 inline-block" height="24"></iconify-icon>
-                <p class="text-black">{{ registration_link ? "S'inscrire" : "Résultats" }}</p>
+                <p class="text-black">{{ race:registration_link ? "S'inscrire" : "Résultats" }}</p>
             </a>
         </div>
         {{ if race:live_link || race:teaser_link }}
