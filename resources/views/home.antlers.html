@@ -135,3 +135,23 @@
         </div>
     </div>
 </section>
+
+{{ if race:volunteer_registration_link}}
+<section>
+    <!-- Container -->
+    <div class="mx-auto max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
+        <!-- Heading Div -->
+        <div class="mx-auto w-full max-w-3xl text-center">
+            <h2 class="text-3xl font-semibold md:text-5xl">Devenir <span
+                    class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">bénévole</span>
+            </h2>
+            <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
+                <p class="text-[#636262]">Vous souhaitez participer à la course mais ne pouvez pas courir ? Chaque année, ce sont 300 personnes qui décident de donner de leur temps pour participer à l’organisation de la Course de Noël.</p>
+            </div>
+        </div>
+        <div class="flex flex-row justify-center justify-items-center">
+            <a href="{{ race:volunteer_registration_link }}" class="button-secondary">S'inscrire comme bénévole</a>
+        </div>
+    </div>
+</section>
+{{ /if }}

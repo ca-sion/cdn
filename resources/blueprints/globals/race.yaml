@@ -52,6 +52,16 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
+            handle: volunteer_registration_link
+            field:
+              type: link
+              display: Inscription des bénévoles
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: teaser_link
             field:
               type: link
