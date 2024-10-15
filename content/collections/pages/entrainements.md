@@ -3,7 +3,7 @@ id: 9c0d8742-133d-42f7-a0cb-5be5f45232e5
 blueprint: page
 title: Entraînements
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711978955
+updated_at: 1728974678
 parent: home
 use_meta_keywords: false
 no_index_page: false
@@ -40,7 +40,7 @@ content:
     content:
       -
         type: text
-        text: 'La Course de Noël organise 4 entraînements de préparation les jeudis :'
+        text: 'La Course de Noël organise 4 entraînements de préparation les mardis :'
   -
     type: bulletList
     content:
@@ -54,7 +54,7 @@ content:
             content:
               -
                 type: text
-                text: 09.11.23
+                text: '12 novembre'
       -
         type: listItem
         content:
@@ -65,7 +65,7 @@ content:
             content:
               -
                 type: text
-                text: 16.11.23
+                text: '19 novembre'
       -
         type: listItem
         content:
@@ -76,7 +76,7 @@ content:
             content:
               -
                 type: text
-                text: 23.11.23
+                text: '26 novembre'
       -
         type: listItem
         content:
@@ -87,7 +87,7 @@ content:
             content:
               -
                 type: text
-                text: 30.11.23
+                text: '3 décembre'
   -
     type: paragraph
     attrs:

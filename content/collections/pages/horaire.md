@@ -4,7 +4,7 @@ blueprint: page
 title: 'Horaire et programme'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711979108
+updated_at: 1727964489
 parent: home
 use_meta_keywords: false
 no_index_page: false
@@ -28,11 +28,11 @@ content:
           -
             type: link
             attrs:
-              href: 'statamic://asset::assets::documents/2023-horaire.pdf'
+              href: 'statamic://asset::assets::documents/2024-horaire.pdf'
               rel: null
               target: _blank
               title: null
-        text: 'Course de Noël 2023'
+        text: 'Course de Noël 2024'
   -
     type: paragraph
     attrs:
@@ -41,6 +41,6 @@ content:
       -
         type: image
         attrs:
-          src: 'asset::assets::documents/2023-horaire.png'
+          src: 'asset::assets::documents/2024-horaire.jpg'
           alt: null
 ---

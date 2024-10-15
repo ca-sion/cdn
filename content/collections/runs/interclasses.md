@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711976813
+updated_at: 1728294657
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -109,7 +109,7 @@ content:
         marks:
           -
             type: underline
-        text: 'Communes de de Sion, Savièse, Veysonnaz et Conthey'
+        text: 'Communes de de Sion, Savièse, Nendaz, Veysonnaz et Conthey'
   -
     type: bulletList
     content:
@@ -148,7 +148,7 @@ content:
             content:
               -
                 type: text
-                text: '7 CHF par élève (frais de dossard, de chronométrage et de prix-souvenir). Le paiement est à effectuer jusqu’au 01.12.2023.'
+                text: '7 CHF par élève (frais de dossard, de chronométrage et de prix-souvenir). Le paiement est à effectuer jusqu’au 01.12.2024.'
       -
         type: listItem
         content:
@@ -187,7 +187,21 @@ content:
         marks:
           -
             type: bold
-        text: 'Délai : 25 novembre 2023'
+        text: 'Délai : 1'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: superscript
+        text: er
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' décembre 2024'
       -
         type: hardBreak
       -
@@ -255,7 +269,20 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Envoyer le fichier à inscriptions@coursedenoel.ch'
+                text: 'Envoyer le fichier à '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'mailto:inscriptions@coursedenoel.ch'
+                      rel: null
+                      target: null
+                      title: null
+                  -
+                    type: bold
+                text: inscriptions@coursedenoel.ch
   -
     type: heading
     attrs:
@@ -292,7 +319,7 @@ content:
             content:
               -
                 type: text
-                text: 'Petit prix-souvenir offert à chaque élève franchissant la ligne d’arrivée'
+                text: 'Prix-souvenir (médaille) offert à chaque élève franchissant la ligne d’arrivée'
   -
     type: heading
     attrs:
@@ -418,7 +445,7 @@ content:
                 content:
                   -
                     type: text
-                    text: '18'
+                    text: '19'
           -
             type: tableCell
             attrs:
@@ -496,7 +523,7 @@ content:
                 content:
                   -
                     type: text
-                    text: '19'
+                    text: '20'
           -
             type: tableCell
             attrs:
@@ -574,7 +601,7 @@ content:
                 content:
                   -
                     type: text
-                    text: '20'
+                    text: '21'
           -
             type: tableCell
             attrs:
@@ -652,7 +679,7 @@ content:
                 content:
                   -
                     type: text
-                    text: '21'
+                    text: '22'
           -
             type: tableCell
             attrs:
@@ -730,7 +757,7 @@ content:
                 content:
                   -
                     type: text
-                    text: '22'
+                    text: '23'
           -
             type: tableCell
             attrs:
@@ -808,7 +835,7 @@ content:
                 content:
                   -
                     type: text
-                    text: '23'
+                    text: '24'
           -
             type: tableCell
             attrs:
@@ -873,7 +900,26 @@ content:
     content:
       -
         type: text
-        text: 'Dès 14h45 sous la tente de fête'
+        marks:
+          -
+            type: italic
+        text: '[Pour 2024, à confirmer]'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Dès 14h45 sous la tente de fête.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'La distribution des prix des 3 meilleures classes par catégorie se fait entre le 16 et le 20 décembre.'
   -
     type: heading
     attrs:
@@ -913,7 +959,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'vendredi 24 novembre 2023'
+                text: 'vendredi 29 novembre 2024'
               -
                 type: text
                 text: ', à 17h15'
@@ -933,7 +979,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'le vendredi 1er décembre 2023'
+                text: 'le vendredi 6 décembre 2024'
               -
                 type: text
                 text: ', à 17h15'
@@ -958,10 +1004,10 @@ content:
         marks:
           -
             type: bold
-        text: "mercredi 6\_décembre 2023"
+        text: "mercredi 11\_décembre 2024"
       -
         type: text
-        text: ', à 17h15. Rendez-vous devant la « Catherine » au sommet de la Place de la Planta.'
+        text: ', à 17h30. Rendez-vous devant la « Catherine » au sommet de la Place de la Planta.'
   -
     type: heading
     attrs:
@@ -981,7 +1027,7 @@ content:
     content:
       -
         type: text
-        text: "Les dossards doivent être retirés dès 10h30 par le responsable-accompagnateur de la classe dans la salle de gym sous l'Aula du Collège de la Planta. (Angle Avenue de la Gare - Avenue Ritz)."
+        text: 'Les dossards devront être retirés dès 10h30 par le responsable-accompagnateur de la classe à la salle de sports du Collège de la Planta, à droite au sommet de l’avenue de la Gare (Aula de la Planta).'
   -
     type: heading
     attrs:
@@ -1015,27 +1061,39 @@ content:
             type: bold
         text: 'Informations supplémentaires pour titulaires de classe'
   -
-    type: paragraph
-    attrs:
-      textAlign: left
+    type: bulletList
     content:
       -
-        type: text
-        text: 'Les inscriptions doivent se faire uniquement par le titulaire.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Les inscriptions doivent se faire uniquement par le titulaire.'
       -
-        type: text
-        text: 'Les titulaires des classes dûment inscrites reçoivent par courriel les dernières instructions, avant le 7 décembre.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Les titulaires des classes dûment inscrites reçoivent par courriel les dernières instructions, avant le 12 décembre.'
       -
-        type: text
-        text: 'S’ils n’accompagnent pas personnellement leurs élèves le jour de la course, ils doivent transmettre ces dernières consignes à la personne responsable qui les remplace le jour de l’épreuve.'
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'S’ils n’accompagnent pas personnellement leurs élèves le jour de la course, ils doivent transmettre ces dernières consignes à la personne responsable qui les remplace le jour de l’épreuve.'
 ---

@@ -1,5 +1,6 @@
 ---
 id: 57e664f6-9100-49f1-bd12-f9235fb6b84d
+published: false
 blueprint: partner
 title: Loyco
 logo: partners/loyco-logo.svg

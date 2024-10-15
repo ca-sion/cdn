@@ -1,5 +1,6 @@
 ---
 id: 37e66d8f-9e85-4cd6-98c9-c7a8b4c9a684
+published: false
 blueprint: partner
 title: GVM
 logo: partners/gvm-logo.png

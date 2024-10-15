@@ -11,6 +11,8 @@ preferences:
         - partners_categories
         - highlighted
         - status
+    runs:
+      after_save: continue_editing
   taxonomies:
     partners_categories:
       columns:

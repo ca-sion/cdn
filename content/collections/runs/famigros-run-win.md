@@ -4,7 +4,7 @@ blueprint: run
 title: 'FAMIGROS RUN & WIN'
 icon: 'twemoji:family-woman-girl'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711977262
+updated_at: 1726232350
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -12,6 +12,14 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Venez courir en famille avec FAMIGROS RUN & WIN ! Franchissez la ligne d'arrivée main dans la main et participez au tirage au sort pour gagner des cartes cadeaux Migros, des billets pour Europa-Park et Rulantica, et bien d'autres surprises. Une activité ludique et sportive pour initier vos enfants à la course à pied et passer un moment inoubliable."
   -
     type: paragraph
     attrs:
@@ -28,6 +36,17 @@ content:
               target: null
               title: null
         text: "Aide pour l'inscription à Famigros Run & Win"
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: "En cas d'inscription nombreuse : deux départs seront donnés. L'heure exacte sera visible dans le mail reçu la veille ou sur les listes de départ, à consulter la veille."
   -
     type: heading
     attrs:
@@ -119,39 +138,54 @@ content:
     content:
       -
         type: text
-        text: 'Gains tirés au sort (2023) :'
+        text: 'Gains tirés au sort (2024) :'
   -
-    type: paragraph
-    attrs:
-      textAlign: start
+    type: bulletList
     content:
       -
-        type: text
-        text: "1x bon-cadeau auprès d'Hotelplan d'une valeur de CHF 1'000.-"
-  -
-    type: paragraph
-    attrs:
-      textAlign: start
-    content:
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: start
+            content:
+              -
+                type: text
+                text: "1x bon-cadeau auprès d'Hotelplan d'une valeur de CHF 1'000."
       -
-        type: text
-        text: '3 x tickets pour le parc d’attractions « Europa-Park » (Rust, Allemagne) pour les participants de la Course de Noël (max. 6 personne par famille) d’une valeur de EUR 57.50 par adulte (à partir de 12 ans) et EUR 49.- par enfant (4-11 ans), frais de transports non inclus.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: start
-    content:
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: start
+            content:
+              -
+                type: text
+                text: '3 x tickets pour le parc d’attractions « Europa-Park » (Rust, Allemagne) pour les participants de la Course de Noël (max. 6 personne par famille) d’une valeur de EUR 57.50 par adulte (à partir de 12 ans) et EUR 49.00 par enfant (4-11 ans), frais de transports non inclus.'
       -
-        type: text
-        text: '1x billet valable pour une journée au parc d''attractions "Rulantica" (Rust, Allemagne) pour les participants de la Course de Noël (max. 6 personnes) d''une valeur de EUR 42.- par personne adulte (à partir de 12 ans) et EUR 39.- par enfant (4-11 ans), frais de transports non inclus.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: start
-    content:
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: start
+            content:
+              -
+                type: text
+                text: '1x billet valable pour une journée au parc d''attractions "Rulantica" (Rust, Allemagne) pour les participants de la Course de Noël (max. 6 personnes) d''une valeur de EUR 42.00 par personne adulte (à partir de 12 ans) et EUR 39.00 par enfant (4-11 ans), frais de transports non inclus.'
       -
-        type: text
-        text: "100 cartes-cadeaux Migros d'une valeur de CHF 20.- chacune."
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: start
+            content:
+              -
+                type: text
+                text: "100 cartes-cadeaux Migros d'une valeur de CHF 20 chacune."
   -
     type: paragraph
     attrs:
@@ -166,11 +200,11 @@ content:
           -
             type: link
             attrs:
-              href: 27-programme---horaire.html
+              href: 'statamic://entry::7364e9f2-a67f-428f-92eb-1562163d50f4'
               rel: null
               target: null
               title: null
-        text: coursedenoel.ch/informations/27-programme---horaire.html
+        text: Programme
   -
     type: paragraph
     attrs:
@@ -178,16 +212,16 @@ content:
     content:
       -
         type: text
-        text: 'Pour les autres conditions, se référer au règlement général de la Course de Noël '
+        text: 'Pour les autres conditions, se référer au règlement général de la Course de Noël : '
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: 'https://www.coursedenoel.ch/informations/25-reglement.html'
+              href: 'statamic://entry::1411ede9-da6a-491e-90dd-bfe0f46e2102'
               rel: null
-              target: _blank
+              target: null
               title: null
-        text: coursedenoel.ch/informations/25-reglement.html
+        text: Règlement
 ---
