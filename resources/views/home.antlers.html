@@ -13,12 +13,20 @@
                 se déroule au milieu de la vieille ville de Sion en Valais</p>
         </div>
         <!-- Button Wrap -->
-        <div class="flex">
+        <div class="flex flex-col sm:flex-row gap-3">
             <a href="#direct" class="button-primary">Infos pratiques</a>
-            <a href="{{ race:registration_link ?? race:result_link }}" class="button-secondary">
+            {{ if race:date > today && race:registration_link }}
+            <a href="{{ race:registration_link }}" class="button-secondary">
                 <iconify-icon icon="mdi:play-circle" class="mr-2 inline-block" height="24"></iconify-icon>
-                <p class="text-black">{{ race:registration_link ? "S'inscrire" : "Résultats" }}</p>
+                <p class="text-black">S'inscrire</p>
             </a>
+            {{ /if }}
+            {{ if race:startlists_link }}
+            <a href="{{ race:startlists_link }}" class="button-secondary">Listes de départ</a>
+            {{ /if }}
+            {{ if race:date <= today && race:result_link }}
+            <a href="{{ race:result_link }}" class="button-primary">Résultats</a>
+            {{ /if }}
         </div>
         {{ if race:live_link || race:teaser_link }}
         <!-- Image Container -->

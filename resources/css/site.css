@@ -15,7 +15,7 @@
 
 @layer components {
     .button-primary {
-      @apply flex flex-row items-center inline-block rounded-xl bg-black px-8 py-4 text-center font-semibold text-white [box-shadow:rgb(173,_215,_242)_6px_6px] md:mr-6 hover:bg-white hover:text-black hover:[box-shadow:rgb(32,_51,_101)_6px_6px] hover:border-primary hover:border hover:border-solid hover:py-[15px] hover:px-[31px] hover:transition ease-in;
+      @apply flex flex-row items-center inline-block rounded-xl bg-black px-8 py-4 text-center font-semibold text-white [box-shadow:rgb(173,_215,_242)_6px_6px] hover:bg-white hover:text-black hover:[box-shadow:rgb(32,_51,_101)_6px_6px] hover:border-primary hover:border hover:border-solid hover:py-[15px] hover:px-[31px] hover:transition ease-in;
     }
     .button-secondary {
         @apply flex flex-row items-center rounded-xl border border-solid border-primary px-6 py-3 text-center font-semibold text-primary [box-shadow:rgb(32,_51,_101)_6px_6px] hover:bg-gray-50 hover:transition ease-in duration-300;
