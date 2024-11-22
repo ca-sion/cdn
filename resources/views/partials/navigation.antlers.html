@@ -44,7 +44,15 @@
             <a href="{{ link to="contact" }}"
                 class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800">Aide et
                 contact</a>
-            <a href="{{ race:registration_link ?? race:result_link }}" class="button-secondary">{{ race:registration_link ? "S'inscrire" : "Résultats" }}</a>
+            {{ if race:startlists_link }}
+            <a href="{{ race:startlists_link }}" class="button-secondary">Listes de départ</a>
+            {{ /if }}
+            {{ if race:date <= today && race:result_link }}
+            <a href="{{ race:result_link }}" class="button-primary">Résultats</a>
+            {{ /if }}
+            {{ if race:registration_link }}
+            <a href="{{ race:registration_link }}" class="button-secondary">S'inscrire</a>
+            {{ /if }}
         </div>
         <a href="#" x-on:click.prevent="isOpen = !isOpen" class="absolute right-5 lg:hidden"><svg width="24" height="24"
                 viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -22,6 +22,16 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
+            handle: startlists_link
+            field:
+              type: link
+              display: Listes de départ
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: result_link
             field:
               type: link
