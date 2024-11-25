@@ -4,7 +4,7 @@ blueprint: run
 title: 'Challenge entreprises'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1728425240
+updated_at: 1732382046
 icon: 'noto:running-shirt'
 use_meta_keywords: false
 no_index_page: false
@@ -93,6 +93,26 @@ content:
       -
         type: text
         text: Inscriptions
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'statamic://asset::assets::documents/aide-inscription-entreprise.pdf'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: italic
+          -
+            type: underline
+        text: "Aide pour l'inscription au Challenge Entreprises"
   -
     type: paragraph
     attrs:

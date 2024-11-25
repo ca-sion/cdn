@@ -13,6 +13,8 @@ preferences:
         - status
     runs:
       after_save: continue_editing
+    pages:
+      after_save: continue_editing
   taxonomies:
     partners_categories:
       columns:

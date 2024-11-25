@@ -1,10 +1,10 @@
 ---
 id: 298d23bc-4508-4a3a-b34d-575dda28e0d0
 blueprint: page
-title: 'Infos pratiques'
+title: 'Infos pratiques et plan'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1726232759
+updated_at: 1732445236
 parent: home
 use_meta_keywords: false
 no_index_page: false
@@ -12,7 +12,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-icon: 'noto:white-question-mark'
+icon: 'noto:flag-in-hole'
 content:
   -
     type: paragraph
@@ -24,7 +24,7 @@ content:
         marks:
           -
             type: bold
-        text: 'DATE & LIEU'
+        text: 'Date & Lieu'
   -
     type: paragraph
     attrs:
@@ -39,392 +39,10 @@ content:
       textAlign: left
     content:
       -
-        type: text
-        marks:
-          -
-            type: bold
-        text: INSCRIPTIONS
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Individuels '
-              -
-                type: text
-                text: 'et entreprises de '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'moins de 20 personnes'
-              -
-                type: text
-                text: ' : '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2024-sion'
-                      rel: null
-                      target: _blank
-                      title: null
-                text: 'en ligne'
-              -
-                type: text
-                text: .
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Clubs d’athlétisme'
-              -
-                type: text
-                text: ' : à l’aide de '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscriptions-groupes.xlsx'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'ce fichier'
-              -
-                type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
-              -
-                type: text
-                text: .
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: Classes
-              -
-                type: text
-                text: ' : à l’aide de '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscription-interclasse.xlsx'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'ce fichier'
-              -
-                type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
-              -
-                type: text
-                text: .
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Entreprises de plus de 20 personnes'
-              -
-                type: text
-                text: ' : à l’aide de '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscriptions-entreprises.xlsx'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'ce fichier'
-              -
-                type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
-              -
-                type: text
-                text: .
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Groupes de plus de 20 personnes'
-              -
-                type: text
-                text: ' : à l’aide de '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscriptions-groupes.xlsx'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'ce fichier'
-              -
-                type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
-              -
-                type: text
-                text: .
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: "Pour les groupes qui s'inscrivent avec un fichier, les inscriptions ne seront visibles sur le site de Datasport (listes de départ) que durant la semaine de la course. Nous vous prions de vérifier en début de semaine si les inscriptions sont bien correctes et de signaler à : "
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'mailto:inscriptions@coursedenoel.ch'
-              rel: null
-              target: null
-              title: null
-        text: inscriptions@coursedenoel.ch
-      -
-        type: text
-        text: ' toute erreur éventuelle.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: PAIEMENT
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Pour les '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'personnes individuelles et les petits groupes'
-              -
-                type: text
-                text: ', le paiement se fait directement sur le site de Datasport lors de l’inscription.'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Pour les '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: "grands groupes\_qui s’inscrivent avec le fichier"
-              -
-                type: text
-                text: ', une facture vous sera envoyée après réception du fichier ou après la course.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'DELAI D’INSCRIPTION'
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: '13 décembre 2024'
-  -
-    type: blockquote
-    content:
-      -
-        type: paragraph
+        type: image
         attrs:
-          textAlign: left
-        content:
-          -
-            type: text
-            text: "S'inscrire jusqu'au 8 décembre 2024 pour avoir son nom sur le dossard."
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: Classes
-              -
-                type: text
-                text: ' : 1'
-              -
-                type: text
-                marks:
-                  -
-                    type: superscript
-                text: er
-              -
-                type: text
-                text: ' décembre 2024.'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: Entreprises
-              -
-                type: text
-                text: ' : 4 décembre 2024.'
+          src: 'asset::assets::documents/cdn-map.png'
+          alt: null
   -
     type: paragraph
     attrs:
@@ -435,73 +53,7 @@ content:
         marks:
           -
             type: bold
-        text: 'INSCRIPTIONS SUR PLACE (le jour-même)'
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: "Possible jusqu'à 60 minutes avant le départ, en ligne ou sur place"
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: "Majoration du prix de l'inscription : 10 CHF/adulte et 5 CHF/enfant"
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Aula du Lycée collège de la Planta. (Angle Av. de la Gare/Av. Ritz).'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: CHRONOMÉTRAGE
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: 'Assuré par une puce.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: VESTIAIRES
+        text: Vestiaires
   -
     type: bulletList
     content:
@@ -563,67 +115,7 @@ content:
         marks:
           -
             type: bold
-        text: DOSSARDS
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Samedi 14 décembre 2024, dès 9h30.'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: "Distribution des dossards à la salle de gym sous l'aula du Collège de la Planta. "
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://goo.gl/maps/3q9ShVR6jt8b85228'
-                      rel: null
-                      target: null
-                      title: null
-                  -
-                    type: italic
-                text: 'Voir emplacement'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: "A retirer au plus tard 30' avant le départ.\_"
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'REMISE DES PRIX'
+        text: 'Remise des prix'
   -
     type: bulletList
     content:
@@ -659,7 +151,7 @@ content:
         marks:
           -
             type: bold
-        text: PRIX-SOUVENIR
+        text: Prix-souvenir
       -
         type: hardBreak
         marks:
@@ -667,7 +159,7 @@ content:
             type: bold
       -
         type: text
-        text: "Chaque athlète recevra un prix-souvenir à l'arrivée.\_"
+        text: "Chaque athlète recevra un prix-souvenir à l'arrivée. Les prix non-récupérés lors de la distribution des prix ne sont pas envoyés."
   -
     type: paragraph
     attrs:
@@ -678,26 +170,7 @@ content:
         marks:
           -
             type: bold
-        text: PRIX
-      -
-        type: hardBreak
-        marks:
-          -
-            type: bold
-      -
-        type: text
-        text: 'Les prix non-récupérés lors de la distribution des prix ne sont pas envoyés.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: DÉPART
+        text: Départ
       -
         type: hardBreak
         marks:
@@ -716,7 +189,7 @@ content:
         marks:
           -
             type: bold
-        text: REPAS
+        text: Repas
       -
         type: hardBreak
         marks:
@@ -735,7 +208,7 @@ content:
         marks:
           -
             type: bold
-        text: 'MÉDAILLE SPORTIVE SÉDUNOISE'
+        text: 'Médaille sportive sédunoise'
       -
         type: hardBreak
         marks:
@@ -743,7 +216,7 @@ content:
             type: bold
       -
         type: text
-        text: 'Cette course est prise en compte pour l’attribution de la médaille sportive sédunoise 2024.'
+        text: 'Cette course est prise en compte pour l’attribution de la Médaille sportive sédunoise 2024. L''autocollant "Walking" ou "Course à pied" est à demander lors de la remise du dossard.'
   -
     type: paragraph
     attrs:
@@ -754,7 +227,7 @@ content:
         marks:
           -
             type: bold
-        text: 'PRIMES D’ARRIVEE'
+        text: 'Primes d’arrivée'
       -
         type: hardBreak
         marks:
@@ -764,13 +237,10 @@ content:
         type: text
         marks:
           -
-            type: bold
+            type: underline
         text: 'Classement scratch (hommes et femmes)'
       -
         type: hardBreak
-        marks:
-          -
-            type: bold
       -
         type: text
         text: '1. 500 CHF 2. 450 CHF 3. 400 CHF 4. 350CHF 5. 300 CHF 6. 250 CHF 7. 200 CHF 8. 150 CHF 9. 100 CHF 10. 50 CHF'
@@ -783,7 +253,7 @@ content:
         type: text
         marks:
           -
-            type: bold
+            type: underline
         text: 'Classement des meilleurs Suisses et des meilleures Suissesses'
       -
         type: hardBreak
@@ -803,7 +273,23 @@ content:
         marks:
           -
             type: bold
-        text: ASSURANCE
+        text: Chronométrage
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Assuré par Datasport avec une puce.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Assurance
       -
         type: hardBreak
         marks:
@@ -822,7 +308,7 @@ content:
         marks:
           -
             type: bold
-        text: 'ASSURATION ANNULATION'
+        text: 'Assurance annulation'
       -
         type: hardBreak
         marks:
@@ -875,7 +361,7 @@ content:
         marks:
           -
             type: bold
-        text: 'ANNULATION DE LA COURSE'
+        text: 'Annulation de la course'
       -
         type: hardBreak
         marks:
@@ -894,7 +380,7 @@ content:
         marks:
           -
             type: bold
-        text: LOGEMENT
+        text: Logement
       -
         type: hardBreak
         marks:
