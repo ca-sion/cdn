@@ -21,3 +21,6 @@ preferences:
         - title
         - order
         - slug
+  assets:
+    assets:
+      mode: grid

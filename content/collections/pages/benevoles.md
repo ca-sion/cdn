@@ -9,7 +9,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1732377782
+updated_at: 1732545176
 lead: 'Toutes les réponses à vos questions concernant votre implication dans les équipes de la Course de Noël.'
 parent: home
 content:
@@ -190,6 +190,23 @@ content:
       -
         type: text
         text: "Un repas de remerciement en septembre de l'année suivante."
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 4
+    content:
+      -
+        type: text
+        text: "Que faire s'il pleut ou neige ?"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Pas de panique ! Nous vous fournirons des vestes de pluie pour que vous puissiez rester au sec.'
   -
     type: heading
     attrs:

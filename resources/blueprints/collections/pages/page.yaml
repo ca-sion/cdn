@@ -27,12 +27,15 @@ tabs:
             handle: content
             field:
               buttons:
+                - h1
                 - h2
                 - h3
                 - h4
+                - h5
                 - bold
                 - italic
                 - underline
+                - strikethrough
                 - superscript
                 - unorderedlist
                 - orderedlist
