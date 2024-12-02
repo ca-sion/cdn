@@ -1,6 +1,5 @@
 ---
 id: 6c8ae5f8-9400-45d9-b5ce-15620192b632
-published: false
 blueprint: partner
 title: CRR
 logo: partners/crr-logo.svg

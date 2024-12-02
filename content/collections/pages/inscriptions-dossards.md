@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1732382723
+updated_at: 1732716627
 parent: home
 use_meta_keywords: false
 no_index_page: false
