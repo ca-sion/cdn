@@ -1,6 +1,5 @@
 ---
 id: 5252faf9-f857-418b-9cd7-8cd5df28b5b6
-published: false
 blueprint: partner
 title: NVRM
 logo: partners/nvrm-logo.svg

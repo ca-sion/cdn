@@ -2,7 +2,6 @@
 id: 5b5485c9-aeac-439c-a6b7-c641fb71d035
 blueprint: partner
 title: 'Imprimerie Schmid'
-logo: partners/schmid-logo.jpg
 link: 'https://www.imprimerie-schmid.ch/fr/'
 highlighted: false
 partners_categories:
@@ -14,5 +13,6 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711975312
+updated_at: 1733143212
+logo: partners/schmid-logo.png
 ---
