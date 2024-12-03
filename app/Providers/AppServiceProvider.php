@@ -2,8 +2,9 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
+use Illuminate\Support\ServiceProvider;
+use Stillat\StatamicBardHeadingPermalinks\HeadingPermalinkExtension;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,5 +25,7 @@ class AppServiceProvider extends ServiceProvider
         //     'resources/js/cp.js',
         //     'resources/css/cp.css',
         // ]);
+
+        HeadingPermalinkExtension::registerAll();
     }
 }

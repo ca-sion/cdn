@@ -18,9 +18,13 @@ return [
     'configs' => [
 
         'default' => [
-            // 'heading_permalink' => [
-            //     'symbol' => '#',
-            // ],
+            'heading_permalink' => [
+                'symbol' => '',
+                'insert' => 'after',
+                'apply_id_to_heading' => true,
+                'min_heading_level' => 2,
+                'max_heading_level' => 3,
+            ],
         ],
 
     ],

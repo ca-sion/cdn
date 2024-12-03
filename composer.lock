@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "802534c79a3f724b0dd96ce9a23a4c8f",
+    "content-hash": "e8627f28b09f6071273170c43454def8",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5637,6 +5637,62 @@
                 "source": "https://github.com/statamic/Stringy"
             },
             "time": "2022-05-04T18:41:52+00:00"
+        },
+        {
+            "name": "stillat/statamic-bard-heading-permalinks",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stillat/statamic-bard-heading-permalinks.git",
+                "reference": "7f6e407a103aa0f8db9b9aae424d7f814226271f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stillat/statamic-bard-heading-permalinks/zipball/7f6e407a103aa0f8db9b9aae424d7f814226271f",
+                "reference": "7f6e407a103aa0f8db9b9aae424d7f814226271f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "statamic/cms": "^4 || ^5"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.14",
+                "pestphp/pest": "^2.24",
+                "pestphp/pest-plugin-laravel": "^2.2"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Bard Heading Permalinks",
+                    "description": "Provides a permalink extension for Bard that is compatible with Statamic's markdown settings."
+                },
+                "laravel": {
+                    "providers": [
+                        "Stillat\\StatamicBardHeadingPermalinks\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stillat\\StatamicBardHeadingPermalinks\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/Stillat/statamic-bard-heading-permalinks/issues",
+                "source": "https://github.com/Stillat/statamic-bard-heading-permalinks/tree/v1.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/JohnathonKoster",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-05-11T20:05:34+00:00"
         },
         {
             "name": "symfony/console",
@@ -11560,5 +11616,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
