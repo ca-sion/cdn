@@ -1,0 +1,13 @@
+{{ if banner:has_banner }}
+<section
+    class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gradient-to-r from-[#203365] via-blue-600 via-60% to-[#add7f2] to-80% px-6 py-2.5 sm:px-3.5 justify-center">
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+        <div class="text-white">{{ banner:text }}</div>
+        {{ if banner:link && banner:link_label }}
+        <a href="{{ banner:link }}"
+            class="flex-none rounded-full bg-white px-3.5 py-1 text-sm font-semibold text-black shadow-sm hover:bg-gray-900 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">{{
+            banner:link_label }} <span aria-hidden="true">&rarr;</span></a>
+        {{ /if }}
+    </div>
+</section>
+{{ /if }}

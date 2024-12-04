@@ -1,0 +1,4 @@
+title: Banner
+data:
+  has_banner: false
+  text: '<p></p>'
