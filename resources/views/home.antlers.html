@@ -24,6 +24,9 @@
             {{ if race:startlists_link }}
             <a href="{{ race:startlists_link }}" class="button-secondary">Listes de départ</a>
             {{ /if }}
+            {{ if race:live_link }}
+            <a href="{{ race:live_link }}" class="button-secondary">🔴 Live</a>
+            {{ /if }}
             {{ if race:date <= today && race:result_link }}
             <a href="{{ race:result_link }}" class="button-primary">Résultats</a>
             {{ /if }}
@@ -33,12 +36,21 @@
         <a href="{{ race:live_link ?? race:teaser_link }}"
             class="relative bottom-0 left-auto right-0 top-auto mt-20 inline-block h-[480px] w-full font-bold text-primary lg:absolute lg:h-64 lg:w-64">
             <img src="{{ glide :src="race:illustration" height="600" }}" alt="{{ race:illustration:alt ?? 'Photo' }}"
+                {{ if not race:live_link }} style="color: red;"{{ /if }}
                 class="relative bottom-0 left-auto right-0 top-auto inline-block h-full w-full -rotate-3 rounded-xl object-cover lg:-rotate-6" />
             <div class="absolute inset-0 z-10 h-full -rotate-6 rounded-xl bg-[#00000033] lg:-rotate-3"></div>
             <div class="absolute inset-0 -z-10 h-full rounded-2xl bg-black"></div>
+            <div class="absolute bottom-1/2 left-1/2 right-auto top-auto z-10 inline-block -translate-x-1/2 translate-y-1/2">
+                {{ if not race:live_link }}
+                <iconify-icon icon="solar:play-circle-bold" height="48" style="background-color: #000000; border-radius: 50px;color: white;"></iconify-icon>
+                {{ else }}
+                <iconify-icon icon="material-symbols-light:motion-play" height="48" style="background-color: rgb(214, 28, 28); border-radius: 50px;color: white;"></iconify-icon>
+                {{ /if }}
+            </div>
+            <!--
             <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63914ea79e127d1bd7939a6a_Play.svg"
                 alt="Play"
-                class="absolute bottom-1/2 left-1/2 right-auto top-auto z-10 inline-block -translate-x-1/2 translate-y-1/2" />
+                class="absolute bottom-1/2 left-1/2 right-auto top-auto z-10 inline-block -translate-x-1/2 translate-y-1/2" />-->
         </a>
         {{ /if }}
     </div>
