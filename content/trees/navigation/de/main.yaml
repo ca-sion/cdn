@@ -16,66 +16,48 @@ tree:
         id: 3b525a38-cf26-4eb2-ac67-e517984d3626
         entry: 187fe294-a5b3-4a6a-b278-65de8f101eff
       -
-        id: 05abfaad-5659-4e2e-805b-c6f58e8c6782
-        entry: 1411ede9-da6a-491e-90dd-bfe0f46e2102
+        id: 49d38d0c-9805-47e4-a84c-ddd13f5b1fcc
+        entry: 656c1a99-26df-4316-bf7d-77bb97589a1c
   -
-    id: 2f82307e-29ef-423a-b83c-fb253200de3a
-    entry: 6edd40d9-f2c6-4f82-973b-98e2daea27aa
+    id: 08e32e66-7b1f-490d-a151-ef3187ccb93d
+    entry: adc2710e-1dde-454d-8429-46254b18583d
     children:
       -
-        id: f1ec31ad-6653-45ca-be26-96cb7b6fb729
-        entry: 3375831e-4769-4795-a956-ab5761ebf784
+        id: 08c60831-70ae-4a2f-9c6c-703e053ba124
+        entry: d069d79e-f5a0-4f16-a389-775488c32636
       -
-        id: 2eef002e-22f3-4409-838f-952ecd9338e5
-        entry: ecad7304-7aa8-4778-97db-8596e9596fee
+        id: 1927443a-c801-4688-a69f-3b9d77f5d45e
+        entry: 0f0392fc-74e2-4776-88cc-62038498aaf0
       -
-        id: 93e64b5e-ab31-413e-b774-8d20fed01182
-        entry: c0cced97-4a1c-4e7d-beeb-fd8504cb40f1
+        id: d636b7a9-5a95-40b7-ae17-74b118df8cf3
+        entry: 7adb809b-bc65-4196-923e-e676d5bc6431
       -
-        id: 25422c86-4cd6-49ea-a98b-c7684a21578d
-        entry: 6edd40d9-f2c6-4f82-973b-98e2daea27aa
-        title: '––– Toutes les courses'
-      -
-        id: 45ff33e3-9a26-4e97-8079-b91e28303c5f
-        entry: 446c49b1-9dec-4350-8476-2ae9b2528a13
-      -
-        id: 5561ba2f-21cb-4762-bee3-fb010acf4abd
-        entry: 2e04a8be-f39c-4541-9434-e3a22e5c5a94
-      -
-        id: de4446c5-ec0e-42e4-aec9-9dc88434d503
-        entry: 49c8e7d1-7479-4ddc-a30d-cd70ff926a50
-      -
-        id: 103e1f92-a725-49c4-91fe-fb939552b45d
-        entry: f27011cc-cf04-4c93-a958-425c97005b32
-      -
-        id: 5947ea79-d95a-4b5f-a95f-13c654db4f5d
-        entry: b142e75d-2d29-4200-8852-676ebccab626
-      -
-        id: 4c555abd-b390-4a16-89c4-5af17e624d7c
-        entry: 8a6b32ae-1b13-476a-bc51-b2dc753be5ae
+        id: de06dd67-649f-4fdb-972b-5052ada67ae8
+        entry: adc2710e-1dde-454d-8429-46254b18583d
+        title: '––– Alle Rennen'
   -
     id: 53f6687a-9f45-4a7d-b67b-994378440617
-    title: "S'informer"
+    title: 'Sich informieren'
     url: '#'
     children:
       -
-        id: e771757a-4ee9-40da-bc33-acd5e76c2c8a
-        entry: 298d23bc-4508-4a3a-b34d-575dda28e0d0
+        id: 7e83bf7b-f07a-4beb-8ca8-f65f8a25e13b
+        entry: 3048edaa-77a3-422c-9034-9aef03634de1
       -
-        id: 99f2bb81-ef97-4013-a99c-b79a43695f7a
-        entry: b234ddb5-1f54-4c29-9cbe-caf1b0f01b4f
+        id: f9e3dd6b-eab2-45fb-bba6-3505a6ce8f7b
+        entry: 09231844-f57b-4441-aba4-5d19d8638260
       -
-        id: 72f5a77d-bc55-4d7a-8cc7-5ba0ef39bd63
-        entry: 383cdd05-2850-4083-9ada-892a5cf86e8f
+        id: 71200d36-1d0b-46d3-964c-e35f55910dc3
+        entry: eea8146e-9017-4999-af24-bb4ee3f8c066
       -
-        id: 619b6a60-97a2-4f46-b6b9-10f428bad18f
-        entry: 78a98a7e-2cf3-45c3-b1b3-064cc8cc4691
+        id: 4e9829fb-1585-465e-a1a5-71eabb9ae371
+        entry: 907429e3-17db-4d1a-ac81-eaf4df17ad10
       -
-        id: d0d66b77-e46d-4f18-90fc-05ee3a705e70
-        entry: 03da9388-3e62-44f3-a052-ffe17fce3d26
+        id: 34df2ab6-7927-49d8-bb00-416ce3f3db01
+        entry: c1ba6733-520c-4966-ac47-05112efb8838
       -
-        id: 64d6cd03-2d6b-422d-a4f1-90b7c8bd820b
-        entry: 1fb08728-1d5a-4065-b8d6-e9dac9709f95
+        id: 055c35c9-45db-499f-a63d-c9d3ecd605ec
+        entry: d4f0094c-aa65-442d-9dd9-82db77b803b8
       -
-        id: c5a80574-a712-4937-bb35-d8e073fd31ec
-        entry: 794494fa-cd55-496b-aed3-4ccfcab5089c
+        id: 39c57f6f-f3ba-4899-b836-1c37f0de9efa
+        entry: d428c76d-150e-4d8d-bb3e-d7b3bf8ceb9e

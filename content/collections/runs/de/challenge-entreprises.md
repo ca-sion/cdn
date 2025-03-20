@@ -3,7 +3,7 @@ id: d069d79e-f5a0-4f16-a389-775488c32636
 origin: 3375831e-4769-4795-a956-ab5761ebf784
 title: 'Challenge entreprises'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742477616
+updated_at: 1742481268
 content:
   -
     type: heading
@@ -21,22 +21,22 @@ content:
     content:
       -
         type: text
-        text: 'L’équipe doit être constituée d’au '
+        text: 'Das Team muss aus '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'minimum 3 participants'
+        text: 'mindestens 3 Teilnehmern'
       -
         type: text
-        text: ' qui sont impérativement employés par l’entreprise pour laquelle ils courent, sous peine de disqualification. '
+        text: ' bestehen, die zwingend bei dem Unternehmen angestellt sind, für das sie laufen, andernfalls werden sie disqualifiziert. '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Les enfants ne sont pas admis'
+        text: 'Kinder sind nicht zugelassen'
       -
         type: text
         text: .
@@ -47,7 +47,7 @@ content:
     content:
       -
         type: text
-        text: 'La catégorie Entreprises est réservées aux entreprises. Les clubs sportifs, associations et autres groupes ne sont pas admis.'
+        text: 'Die Kategorie Unternehmen ist für Unternehmen reserviert. Sportvereine, Verbände und andere Gruppen sind nicht zugelassen.'
   -
     type: blockquote
     content:
@@ -58,7 +58,7 @@ content:
         content:
           -
             type: text
-            text: "En cas d'inscription nombreuse : trois départs seront donnés. L'heure exacte sera visible dans le mail reçu la veille ou sur les listes de départ, à consulter la veille."
+            text: 'Bei einer großen Anzahl von Anmeldungen: Es werden drei Starts vergeben. Die genaue Uhrzeit ist in der am Vortag erhaltenen E-Mail oder auf den Startlisten ersichtlich, die am Vortag einzusehen sind.'
   -
     type: paragraph
     attrs:
@@ -66,16 +66,16 @@ content:
     content:
       -
         type: text
-        text: 'Commandez sans tarder, les '
+        text: 'Bestellen Sie die personalisierbaren '
       -
         type: text
         marks:
           -
             type: bold
-        text: 't-shirts personnalisables de Texner'
+        text: 'T-Shirts von Texner'
       -
         type: text
-        text: " pour votre team jusqu'au 8 novembre ! Plus d'information en bas de page."
+        text: ' für Ihr Team bis zum 8. November! Weitere Informationen finden Sie unten auf der Seite.'
   -
     type: heading
     attrs:
@@ -104,7 +104,7 @@ content:
             type: italic
           -
             type: underline
-        text: "Aide pour l'inscription au Challenge Entreprises"
+        text: 'Hilfe bei der Anmeldung zur Challenge Entreprises'
   -
     type: paragraph
     attrs:
@@ -115,7 +115,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Pour les entreprises de moins de 20 personnes'
+        text: 'Für Unternehmen mit weniger als 20 Personen'
   -
     type: bulletList
     content:
@@ -129,7 +129,7 @@ content:
             content:
               -
                 type: text
-                text: 'Où : Sur Datasport (bouton en haut à droite de la page)'
+                text: 'Wo: Auf Datasport (Button oben rechts auf der Seite)'
       -
         type: listItem
         content:
@@ -140,7 +140,7 @@ content:
             content:
               -
                 type: text
-                text: 'Comment : '
+                text: 'Wie : '
               -
                 type: text
                 marks:
@@ -162,13 +162,15 @@ content:
             content:
               -
                 type: text
-                text: 'Délai d’inscription : '
+                text: 'Anmeldefrist: '
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: '4 décembre 2024'
+                  -
+                    type: strike
+                text: '4. Dezember 2024'
       -
         type: listItem
         content:
@@ -179,7 +181,7 @@ content:
             content:
               -
                 type: text
-                text: 'Prix : 35 CHF par participant'
+                text: 'Preis: 35 CHF pro Teilnehmer'
       -
         type: listItem
         content:
@@ -190,7 +192,7 @@ content:
             content:
               -
                 type: text
-                text: "Paiement : Lors de l'inscription sur la plateforme Datasport (TWINT - Carte de crédit - Postfinance)."
+                text: 'Zahlung: Bei der Anmeldung auf der Datasport-Plattform (TWINT - Kreditkarte - Postfinance).'
   -
     type: blockquote
     content:
@@ -204,7 +206,7 @@ content:
             marks:
               -
                 type: italic
-            text: "ATTENTION – Les inscriptions sont définitives. Aucune modification n'est possible par la suite !"
+            text: 'ACHTUNG - Die Anmeldungen sind endgültig. Nachträgliche Änderungen sind nicht möglich!'
   -
     type: paragraph
     attrs:
@@ -215,7 +217,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Pour les entreprises de 20 personnes et plus'
+        text: 'Für Unternehmen mit 20 oder mehr Personen'
   -
     type: bulletList
     content:
@@ -229,7 +231,7 @@ content:
             content:
               -
                 type: text
-                text: 'Comment : En remplissant '
+                text: 'Wie: Indem Sie  '
               -
                 type: text
                 marks:
@@ -240,10 +242,10 @@ content:
                       rel: null
                       target: null
                       title: null
-                text: 'ce fichier Excel'
+                text: Excel-Datei
               -
                 type: text
-                text: "\_(onglet A et B) et en le retournant par email à\_"
+                text: "\_(Register A und B) und sie per E-Mail an\_"
               -
                 type: text
                 marks:
@@ -255,6 +257,9 @@ content:
                       target: null
                       title: null
                 text: inscriptions@coursedenoel.ch
+              -
+                type: text
+                text: ' zurückschicken.'
       -
         type: listItem
         content:
@@ -265,13 +270,15 @@ content:
             content:
               -
                 type: text
-                text: 'Délai d’inscription : '
+                text: 'Anmeldefrist: '
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: '4 décembre 2024'
+                  -
+                    type: strike
+                text: '4. Dezember 2024'
       -
         type: listItem
         content:
@@ -282,7 +289,7 @@ content:
             content:
               -
                 type: text
-                text: 'Prix : 35 CHF par participant'
+                text: 'Preis: 35 CHF pro Teilnehmer'
       -
         type: listItem
         content:
@@ -293,7 +300,7 @@ content:
             content:
               -
                 type: text
-                text: 'Paiement : Facturé après réception du fichier ou après la course'
+                text: 'Bezahlung: Wird nach Erhalt der Datei oder nach dem Lauf in Rechnung gestellt.'
       -
         type: listItem
         content:
@@ -304,7 +311,7 @@ content:
             content:
               -
                 type: text
-                text: 'Condition :'
+                text: 'Bedingung:'
           -
             type: bulletList
             content:
@@ -318,7 +325,7 @@ content:
                     content:
                       -
                         type: text
-                        text: '20 inscriptions minimum (onglet B)'
+                        text: 'Mindestens 20 Anmeldungen (Register B)'
               -
                 type: listItem
                 content:
@@ -329,7 +336,7 @@ content:
                     content:
                       -
                         type: text
-                        text: "Fournir l'adresse de facturation (onglet A)"
+                        text: 'Rechnungsadresse angeben (Registerkarte A)'
   -
     type: blockquote
     content:
@@ -340,7 +347,7 @@ content:
         content:
           -
             type: text
-            text: "Pour les groupes qui s'inscrivent avec un fichier, les inscriptions ne seront visibles sur le site de Datasport (listes de départ) que durant la semaine de la course. Nous vous prions de vérifier en début de semaine si les inscriptions sont bien correctes et de signaler à : "
+            text: 'Für Gruppen, die sich mit einer Datei anmelden, werden die Anmeldungen erst in der Woche des Laufs auf der Datasport-Website (Startlisten) sichtbar. Wir bitten Sie, am Anfang der Woche zu überprüfen, ob die Anmeldungen korrekt sind, und dies zu melden an : '
           -
             type: text
             marks:
@@ -354,7 +361,7 @@ content:
             text: inscriptions@coursedenoel.ch
           -
             type: text
-            text: ' toute erreur éventuelle.'
+            text: ' jeden möglichen Fehler.jeden möglichen Fehler.'
   -
     type: heading
     attrs:
@@ -371,7 +378,7 @@ content:
     content:
       -
         type: text
-        text: 'Commandez sans tarder, les t-shirts personnalisables de Texner pour votre team !'
+        text: 'Bestellen Sie gleich, die personalisierbaren T-Shirts von Texner für Ihr Team!'
   -
     type: bulletList
     content:
@@ -385,13 +392,18 @@ content:
             content:
               -
                 type: text
-                text: 'Délai de commande : '
+                marks:
+                  -
+                    type: bold
+                text: 'Bestellfrist: '
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: '8 novembre 2024'
+                  -
+                    type: strike
+                text: '8. November 2024'
       -
         type: listItem
         content:
@@ -402,7 +414,7 @@ content:
             content:
               -
                 type: text
-                text: 'Les T-shirts et de commande : '
+                text: 'Die T-Shirts und bestellen : '
               -
                 type: text
                 marks:
@@ -424,7 +436,7 @@ content:
             content:
               -
                 type: text
-                text: 'Commande à envoyer à : '
+                text: 'Bestellung zu senden an : '
               -
                 type: text
                 marks:
