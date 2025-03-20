@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742475748
+updated_at: 1742483151
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -342,6 +342,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: '13 décembre 2024'
   -
     type: blockquote
@@ -353,7 +356,16 @@ content:
         content:
           -
             type: text
-            text: "S'inscrire jusqu'au 8 décembre 2024 pour avoir son nom sur le dossard."
+            text: "S'inscrire jusqu'au "
+          -
+            type: text
+            marks:
+              -
+                type: strike
+            text: '8 décembre 2024'
+          -
+            type: text
+            text: ' pour avoir son nom sur le dossard.'
   -
     type: bulletList
     content:
@@ -373,15 +385,26 @@ content:
                 text: Classes
               -
                 type: text
-                text: ' : 1'
+                text: ' : '
               -
                 type: text
                 marks:
+                  -
+                    type: strike
+                text: '1'
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
                   -
                     type: superscript
                 text: er
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: ' décembre 2024.'
       -
         type: listItem
@@ -399,7 +422,13 @@ content:
                 text: Entreprises
               -
                 type: text
-                text: ' : 4 décembre 2024.'
+                text: ' : '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: '4 décembre 2024.'
   -
     type: heading
     attrs:
@@ -473,7 +502,7 @@ content:
             content:
               -
                 type: text
-                text: 'Samedi 14 décembre 2024, dès 9h30.'
+                text: 'Samedi 13 décembre 2025, dès 9h30.'
       -
         type: listItem
         content:

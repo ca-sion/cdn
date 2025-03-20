@@ -3,8 +3,7 @@ id: 35845e58-4ae2-47f7-b7e8-4c44feabb1ac
 blueprint: page
 title: 'La Course de Noël'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711978357
-parent: home
+updated_at: 1742483045
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -89,7 +88,7 @@ content:
             content:
               -
                 type: text
-                text: 'Christelle Bianco : Course Elite'
+                text: 'Allan Bonjour : Course Elite'
       -
         type: listItem
         content:
@@ -208,7 +207,7 @@ content:
     content:
       -
         type: text
-        text: 'L’HISTORIQUE DE LA PREMIÈRE COURSE EN VILLE DE SUISSE'
+        text: 'L’historique de la première course en ville de Suiss'
   -
     type: paragraph
     attrs:
@@ -233,7 +232,7 @@ content:
     content:
       -
         type: text
-        text: 'SPONSOR PRINCIPAL'
+        text: 'Sponsor principal'
   -
     type: paragraph
     attrs:

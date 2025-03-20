@@ -3,7 +3,7 @@ id: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
 origin: b45d1533-44ce-44e9-a141-b3303ae0de5d
 title: 'Anmeldung und Startnummern'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742476221
+updated_at: 1742483634
 content:
   -
     type: heading
@@ -30,16 +30,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Einzelpersonen '
-              -
-                type: text
-                text: 'und Unternehmen mit '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'weniger als 20 Personen'
+                text: 'Privatpersonen und Unternehmen mit weniger als 20 Personen'
               -
                 type: text
                 text: ' : '
@@ -53,7 +44,7 @@ content:
                       rel: null
                       target: _blank
                       title: null
-                text: 'en ligne'
+                text: online
               -
                 type: text
                 text: .
@@ -70,10 +61,10 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Clubs d’athlétisme'
+                text: Leichtathletikvereine
               -
                 type: text
-                text: ' : à l’aide de '
+                text: ' : mithilfe dieser '
               -
                 type: text
                 marks:
@@ -84,24 +75,24 @@ content:
                       rel: null
                       target: null
                       title: null
-                text: 'ce fichier'
+                text: Datei
               -
                 type: text
-                text: ' à envoyer '
+                text: ', die Sie '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
+                      href: inscriptions@coursedenoel.ch
                       rel: null
                       target: null
                       title: null
-                text: ici
+                text: hier
               -
                 type: text
-                text: .
+                text: ' einsenden.'
       -
         type: listItem
         content:
@@ -115,10 +106,10 @@ content:
                 marks:
                   -
                     type: bold
-                text: Classes
+                text: Klassen
               -
                 type: text
-                text: ' : à l’aide de '
+                text: ' : mithilfe dieser '
               -
                 type: text
                 marks:
@@ -129,24 +120,24 @@ content:
                       rel: null
                       target: null
                       title: null
-                text: 'ce fichier'
+                text: Datei
               -
                 type: text
-                text: ' à envoyer '
+                text: ', die Sie '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
+                      href: inscriptions@coursedenoel.ch
                       rel: null
                       target: null
                       title: null
-                text: ici
+                text: hier
               -
                 type: text
-                text: .
+                text: ' einsenden.'
       -
         type: listItem
         content:
@@ -160,10 +151,10 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Entreprises de plus de 20 personnes'
+                text: 'Unternehmen mit mehr als 20 Personen'
               -
                 type: text
-                text: ' : à l’aide de '
+                text: ' : mithilfe dieser '
               -
                 type: text
                 marks:
@@ -174,24 +165,24 @@ content:
                       rel: null
                       target: null
                       title: null
-                text: 'ce fichier'
+                text: Datei
               -
                 type: text
-                text: ' à envoyer '
+                text: ', die Sie '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
+                      href: inscriptions@coursedenoel.ch
                       rel: null
                       target: null
                       title: null
-                text: ici
+                text: hier
               -
                 type: text
-                text: .
+                text: ' einsenden.'
       -
         type: listItem
         content:
@@ -205,10 +196,10 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Groupes de plus de 20 personnes'
+                text: 'Gruppen mit mehr als 20 Personen'
               -
                 type: text
-                text: ' : à l’aide de '
+                text: ' : mithilfe dieser '
               -
                 type: text
                 marks:
@@ -219,24 +210,24 @@ content:
                       rel: null
                       target: null
                       title: null
-                text: 'ce fichier'
+                text: Datei
               -
                 type: text
-                text: ' à envoyer '
+                text: ', die Sie '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
+                      href: inscriptions@coursedenoel.ch
                       rel: null
                       target: null
                       title: null
-                text: ici
+                text: hier
               -
                 type: text
-                text: .
+                text: ' einsenden.'
   -
     type: paragraph
     attrs:
@@ -244,21 +235,21 @@ content:
     content:
       -
         type: text
-        text: "Pour les groupes qui s'inscrivent avec un fichier, les inscriptions ne seront visibles sur le site de Datasport (listes de départ) que durant la semaine de la course. Nous vous prions de vérifier en début de semaine si les inscriptions sont bien correctes et de signaler à : "
+        text: 'Für Gruppen, die sich mit einer Datei anmelden, werden die Anmeldungen erst in der Woche des Laufs auf der Datasport-Website (Startlisten) sichtbar. Bitte überprüfen Sie am Anfang der Woche, ob die Anmeldungen korrekt sind, und melden Sie eventuelle Fehler an: i'
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: 'mailto:inscriptions@coursedenoel.ch'
+              href: 'mailto:nscriptions@coursedenoel.ch'
               rel: null
               target: null
               title: null
-        text: inscriptions@coursedenoel.ch
+        text: nscriptions@coursedenoel.ch
       -
         type: text
-        text: ' toute erreur éventuelle.'
+        text: .
   -
     type: heading
     attrs:
@@ -267,7 +258,7 @@ content:
     content:
       -
         type: text
-        text: Paiement
+        text: Zahlung
   -
     type: bulletList
     content:
@@ -281,16 +272,16 @@ content:
             content:
               -
                 type: text
-                text: 'Pour les '
+                text: 'Für '
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'personnes individuelles et les petits groupes'
+                text: 'Einzelpersonen und kleine Gruppen'
               -
                 type: text
-                text: ', le paiement se fait directement sur le site de Datasport lors de l’inscription.'
+                text: ' erfolgt die Bezahlung direkt auf der Datasport-Website bei der Anmeldung.'
       -
         type: listItem
         content:
@@ -301,16 +292,16 @@ content:
             content:
               -
                 type: text
-                text: 'Pour les '
+                text: 'Bei g'
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: "grands groupes\_qui s’inscrivent avec le fichier"
+                text: 'roßen Gruppen'
               -
                 type: text
-                text: ', une facture vous sera envoyée après réception du fichier ou après la course.'
+                text: ', die sich mit der Datei anmelden, wird Ihnen nach Erhalt der Datei oder nach dem Lauf eine Rechnung zugeschickt.'
   -
     type: heading
     attrs:
@@ -319,90 +310,7 @@ content:
     content:
       -
         type: text
-        text: 'Délai d’inscription'
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: '13 décembre 2024'
-  -
-    type: blockquote
-    content:
-      -
-        type: paragraph
-        attrs:
-          textAlign: left
-        content:
-          -
-            type: text
-            text: "S'inscrire jusqu'au 8 décembre 2024 pour avoir son nom sur le dossard."
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: Classes
-              -
-                type: text
-                text: ' : 1'
-              -
-                type: text
-                marks:
-                  -
-                    type: superscript
-                text: er
-              -
-                type: text
-                text: ' décembre 2024.'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: Entreprises
-              -
-                type: text
-                text: ' : 4 décembre 2024.'
-  -
-    type: heading
-    attrs:
-      textAlign: left
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: strike
-        text: 'Inscriptions sur place (le jour-même)'
+        text: 'Frist für die Anmeldung'
   -
     type: bulletList
     content:
@@ -419,38 +327,18 @@ content:
                 marks:
                   -
                     type: strike
-                text: "Possible jusqu'à 60 minutes avant le départ, en ligne ou sur place"
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: "Majoration du prix de l'inscription : 10 CHF/adulte et 5 CHF/enfant"
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Aula du Lycée collège de la Planta. (Angle Av. de la Gare/Av. Ritz).'
+                text: '13. Dezember 2024'
   -
-    type: heading
-    attrs:
-      textAlign: left
-      level: 2
+    type: blockquote
     content:
       -
-        type: text
-        text: Dossards
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Melden Sie sich bis zum 8. Dezember 2024 an, um Ihren Namen auf der Startnummer zu haben.'
   -
     type: bulletList
     content:
@@ -464,7 +352,13 @@ content:
             content:
               -
                 type: text
-                text: 'Samedi 14 décembre 2024, dès 9h30.'
+                marks:
+                  -
+                    type: bold
+                text: 'Klassen:'
+              -
+                type: text
+                text: ' 1. Dezember 2024.'
       -
         type: listItem
         content:
@@ -475,7 +369,98 @@ content:
             content:
               -
                 type: text
-                text: "Distribution des dossards à la salle de gym sous l'aula du Collège de la Planta. "
+                marks:
+                  -
+                    type: bold
+                text: 'Unternehmen:'
+              -
+                type: text
+                text: ' 4. Dezember 2024.'
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: strike
+        text: 'Anmeldung vor Ort (am selben Tag)'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: 'Bis 60 Minuten vor Abflug möglich, online oder vor Ort'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Aufschlag auf die Anmeldegebühr: 10 CHF/Erwachsener und 5 CHF/Kind'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Aula des Lycée collège de la Planta (Ecke Av. de la Gare/Av. Ritz).'
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        text: Startnummern
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Samstag, 13. Dezember 2024, ab 9.30 Uhr.'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Ausgabe der Startnummern in der Turnhalle unter der Aula des Collège de la Planta. '
               -
                 type: text
                 marks:
@@ -486,9 +471,7 @@ content:
                       rel: null
                       target: null
                       title: null
-                  -
-                    type: italic
-                text: 'Voir emplacement'
+                text: 'Standort ansehen'
       -
         type: listItem
         content:
@@ -499,7 +482,7 @@ content:
             content:
               -
                 type: text
-                text: "A retirer au plus tard 30' avant le départ.\_"
+                text: "Muss spätestens 30' vor der Abreise abgeholt werden. "
   -
     type: paragraph
     attrs:
