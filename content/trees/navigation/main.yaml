@@ -34,7 +34,25 @@ tree:
       -
         id: 25422c86-4cd6-49ea-a98b-c7684a21578d
         entry: 6edd40d9-f2c6-4f82-973b-98e2daea27aa
-        title: '– Toutes les courses'
+        title: '––– Toutes les courses'
+      -
+        id: 45ff33e3-9a26-4e97-8079-b91e28303c5f
+        entry: 446c49b1-9dec-4350-8476-2ae9b2528a13
+      -
+        id: 5561ba2f-21cb-4762-bee3-fb010acf4abd
+        entry: 2e04a8be-f39c-4541-9434-e3a22e5c5a94
+      -
+        id: de4446c5-ec0e-42e4-aec9-9dc88434d503
+        entry: 49c8e7d1-7479-4ddc-a30d-cd70ff926a50
+      -
+        id: 103e1f92-a725-49c4-91fe-fb939552b45d
+        entry: f27011cc-cf04-4c93-a958-425c97005b32
+      -
+        id: 5947ea79-d95a-4b5f-a95f-13c654db4f5d
+        entry: b142e75d-2d29-4200-8852-676ebccab626
+      -
+        id: 4c555abd-b390-4a16-89c4-5af17e624d7c
+        entry: 8a6b32ae-1b13-476a-bc51-b2dc753be5ae
   -
     id: 53f6687a-9f45-4a7d-b67b-994378440617
     title: "S'informer"
@@ -58,3 +76,6 @@ tree:
       -
         id: 64d6cd03-2d6b-422d-a4f1-90b7c8bd820b
         entry: 1fb08728-1d5a-4065-b8d6-e9dac9709f95
+      -
+        id: c5a80574-a712-4937-bb35-d8e073fd31ec
+        entry: 794494fa-cd55-496b-aed3-4ccfcab5089c

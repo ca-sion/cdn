@@ -4,7 +4,7 @@ blueprint: page
 title: 'Infos pratiques et plan'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1732445236
+updated_at: 1733821833
 parent: home
 use_meta_keywords: false
 no_index_page: false
@@ -53,7 +53,7 @@ content:
         marks:
           -
             type: bold
-        text: Vestiaires
+        text: 'Vestiaires et douches'
   -
     type: bulletList
     content:

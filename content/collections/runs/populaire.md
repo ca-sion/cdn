@@ -4,7 +4,7 @@ blueprint: run
 title: Populaire
 icon: 'noto:clapping-hands'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1726076425
+updated_at: 1733832314
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -28,4 +28,12 @@ content:
       -
         type: text
         text: 'Horaire : 14h45'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Règlement : Pas de classement au temps, pas de podium, classement alphabétique. Participation souhaitée dès 16 ans.'
 ---

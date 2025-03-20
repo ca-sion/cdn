@@ -1,6 +1,4 @@
 title: Bannière
 data:
   has_banner: true
-  text: "<p>Les courses jeunesses ont du succès ! Le quota limite d&#039;inscription risque d&#039;être atteint, inscrivez-vous vite\_!\_👏🏃</p>"
-  link: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2024-sion'
-  link_label: Inscription
+  text: '<p>📷 <a href="https://photos.casion.ch/index.php?/category/9"><u>Photos de la course</u></a></p>'

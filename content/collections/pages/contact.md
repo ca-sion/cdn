@@ -4,7 +4,7 @@ blueprint: page
 title: Contact
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711976249
+updated_at: 1733771496
 parent: home
 use_meta_keywords: false
 no_index_page: false
@@ -36,28 +36,19 @@ content:
           -
             type: bold
         text: 'Question administrative ou générale'
-  -
-    type: bulletList
-    content:
       -
-        type: listItem
-        content:
+        type: hardBreak
+      -
+        type: text
+        marks:
           -
-            type: paragraph
+            type: link
             attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:info@coursedenoel.ch?subject=Question'
-                      rel: null
-                      target: null
-                      title: null
-                text: info@coursedenoel.ch
+              href: 'mailto:info@coursedenoel.ch?subject=Question'
+              rel: null
+              target: null
+              title: null
+        text: info@coursedenoel.ch
   -
     type: paragraph
     attrs:
@@ -72,44 +63,33 @@ content:
       -
         type: text
         text: " ou pour obtenir de l'aide"
-  -
-    type: bulletList
-    content:
       -
-        type: listItem
-        content:
+        type: hardBreak
+      -
+        type: text
+        marks:
           -
-            type: paragraph
+            type: link
             attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: inscriptions@coursedenoel.ch
+              href: 'mailto:inscriptions@coursedenoel.ch'
+              rel: null
+              target: null
+              title: null
+        text: inscriptions@coursedenoel.ch
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Aide en ligne'
   -
     type: paragraph
     attrs:
       textAlign: left
     content:
-      -
-        type: hardBreak
-  -
-    type: horizontalRule
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: hardBreak
       -
         type: text
         marks:

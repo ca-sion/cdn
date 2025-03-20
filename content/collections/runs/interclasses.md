@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1728294657
+updated_at: 1733687343
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -1007,7 +1007,7 @@ content:
         text: "mercredi 11\_décembre 2024"
       -
         type: text
-        text: ', à 17h30. Rendez-vous devant la « Catherine » au sommet de la Place de la Planta.'
+        text: ', à 17h15. Rendez-vous devant la « Catherine » au sommet de la Place de la Planta.'
   -
     type: heading
     attrs:

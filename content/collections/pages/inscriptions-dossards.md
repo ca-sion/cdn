@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1732716627
+updated_at: 1734017358
 parent: home
 use_meta_keywords: false
 no_index_page: false
@@ -409,6 +409,9 @@ content:
     content:
       -
         type: text
+        marks:
+          -
+            type: strike
         text: 'Inscriptions sur place (le jour-même)'
   -
     type: bulletList
@@ -423,6 +426,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: "Possible jusqu'à 60 minutes avant le départ, en ligne ou sur place"
       -
         type: listItem
