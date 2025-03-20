@@ -12,17 +12,13 @@ tabs:
               required: true
               validate:
                 - required
+              localizable: true
           -
             handle: lead
             field:
-              antlers: false
               type: textarea
               display: Lead
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
+              localizable: true
           -
             handle: content
             field:
@@ -48,48 +44,21 @@ tabs:
                 - alignleft
                 - aligncenter
                 - alignright
-              smart_typography: false
-              save_html: false
-              inline: false
-              toolbar_mode: fixed
-              reading_time: false
-              word_count: false
-              fullscreen: true
-              allow_source: true
-              enable_input_rules: true
-              enable_paste_rules: true
               remove_empty_nodes: false
-              antlers: false
-              link_noopener: false
-              link_noreferrer: false
-              target_blank: false
-              always_show_set_button: false
-              collapse: false
-              previews: true
               type: bard
               display: Contenu
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
               link_collections:
                 - pages
                 - runs
               container: assets
+              localizable: true
           -
             handle: icon
             field:
-              input_type: text
-              antlers: false
               type: text
               display: Icône
               instructions: 'https://icon-sets.iconify.design/noto/'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
+              localizable: false
   sidebar:
     display: Sidebar
     sections:
@@ -116,3 +85,15 @@ tabs:
               type: template
               display: Template
               localizable: true
+  SEO:
+    display: SEO
+    sections:
+      -
+        fields:
+          -
+            handle: seo
+            field:
+              type: seo_pro
+              listable: false
+              display: SEO
+              localizable: false

@@ -12,19 +12,14 @@ tabs:
               required: true
               validate:
                 - required
+              localizable: true
           -
             handle: icon
             field:
-              input_type: text
-              antlers: false
               type: text
               display: Icône
               instructions: 'https://icon-sets.iconify.design/noto/'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
+              localizable: false
           -
             handle: content
             field:
@@ -48,32 +43,11 @@ tabs:
                 - alignleft
                 - aligncenter
                 - alignright
-              smart_typography: false
-              save_html: false
-              inline: false
-              toolbar_mode: fixed
-              reading_time: false
-              word_count: false
-              fullscreen: true
-              allow_source: true
-              enable_input_rules: true
-              enable_paste_rules: true
               remove_empty_nodes: false
-              antlers: false
-              link_noopener: false
-              link_noreferrer: false
-              target_blank: false
-              always_show_set_button: false
-              collapse: false
-              previews: true
               type: bard
               display: Contenu
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
               container: assets
+              localizable: true
   sidebar:
     display: Sidebar
     sections:
@@ -85,3 +59,15 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+  SEO:
+    display: SEO
+    sections:
+      -
+        fields:
+          -
+            handle: seo
+            field:
+              type: seo_pro
+              listable: false
+              display: SEO
+              localizable: false

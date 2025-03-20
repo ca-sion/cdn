@@ -1,4 +1,8 @@
 title: Partenaires
+sites:
+  - default
+  - de
+propagate: true
 template: partners/show
 layout: layout
 taxonomies:

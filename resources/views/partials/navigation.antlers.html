@@ -42,17 +42,19 @@
         <div x-bind:class="isOpen ? 'show' : 'hidden'"
             class="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0 mt-8 lg:mt-0">
             <a href="{{ link to="contact" }}"
-                class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800">Aide et
-                contact</a>
+                class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800">{{ trans:site.help_and_contact }}</a>
             {{ if race:startlists_link }}
-            <a href="{{ race:startlists_link }}" class="button-secondary">Listes de départ</a>
+            <a href="{{ race:startlists_link }}" class="button-secondary">{{ trans:site.entrylists }}</a>
             {{ /if }}
             {{ if race:date <= today && race:result_link }}
-            <a href="{{ race:result_link }}" class="button-primary">Résultats</a>
+            <a href="{{ race:result_link }}" class="button-primary">{{ trans:site.results }}</a>
             {{ /if }}
             {{ if race:registration_link }}
-            <a href="{{ race:registration_link }}" class="button-secondary">S'inscrire</a>
+            <a href="{{ race:registration_link }}" class="button-secondary">{{ trans:site.register }}</a>
             {{ /if }}
+            {{ locales self="false" }}
+                <a class="{{ site:handle === handle ?= 'underline' }} font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800" href="{{ url }}">{{ locale:short | upper }}</a>
+            {{ /locales }}
         </div>
         <a href="#" x-on:click.prevent="isOpen = !isOpen" class="absolute right-5 lg:hidden"><svg width="24" height="24"
                 viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

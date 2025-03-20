@@ -12,6 +12,10 @@ CHANGELOG.md export-ignore
 
 *.png binary
 *.jpg binary
-*.jpeg binary
 *.gif binary
+*.jpeg binary
+*.tiff binary
 *.webp binary
+*.pdf binary
+*.mp3 binary
+*.mp4 binary

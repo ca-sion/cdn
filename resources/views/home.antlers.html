@@ -9,26 +9,25 @@
             <h1 class="mb-5 text-4xl font-semibold md:text-8xl lg:mb-8">Course de <span
                     class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">Noël</span>
             </h1>
-            <p class="mb-5 max-w-[528px] text-xl text-[#636262] lg:mb-8">Doyenne des courses suisse, la Course de Noël
-                se déroule au milieu de la vieille ville de Sion en Valais</p>
+            <p class="mb-5 max-w-[528px] text-xl text-[#636262] lg:mb-8">{{ trans:site.christmas_race_lead }}</p>
         </div>
         <!-- Button Wrap -->
         <div class="flex flex-col sm:flex-row gap-3">
-            <a href="#direct" class="button-primary">Infos pratiques</a>
+            <a href="#direct" class="button-primary">{{ trans:site.practical_infos }}</a>
             {{ if race:date > today && race:registration_link }}
             <a href="{{ race:registration_link }}" class="button-secondary">
                 <iconify-icon icon="mdi:play-circle" class="mr-2 inline-block" height="24"></iconify-icon>
-                <p class="text-black">S'inscrire</p>
+                <p class="text-black">{{ trans:site.register }}</p>
             </a>
             {{ /if }}
             {{ if race:startlists_link }}
-            <a href="{{ race:startlists_link }}" class="button-secondary">Listes de départ</a>
+            <a href="{{ race:startlists_link }}" class="button-secondary">{{ trans:site.entrylists }}</a>
             {{ /if }}
             {{ if race:live_link }}
             <a href="{{ race:live_link }}" class="button-secondary">🔴 Live</a>
             {{ /if }}
             {{ if race:date <= today && race:result_link }}
-            <a href="{{ race:result_link }}" class="button-primary">Résultats</a>
+            <a href="{{ race:result_link }}" class="button-primary">{{ trans:site.results }}</a>
             {{ /if }}
         </div>
         {{ if race:live_link || race:teaser_link }}
@@ -65,7 +64,7 @@
 <section>
     <!-- Container -->
     <div class="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
-        <h2 class="mb-6 text-xl font-semibold md:mb-10 lg:mb-12">Sponsors principaux</h2>
+        <h2 class="mb-6 text-xl font-semibold md:mb-10 lg:mb-12">{{ trans:site.main_sponsors }}</h2>
         <div class="grid grid-cols-4 justify-items-center gap-8 sm:grid-cols-5 sm:gap-12 md:grid-cols-6 md:gap-6">
             {{ collection:partners highlighted:is="true" }}
             <a class="flex justify-center items-center" href="{{ link }}">
@@ -82,8 +81,8 @@
     <div class="mx-auto max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
         <!-- Heading Div -->
         <div class="mx-auto w-full max-w-3xl text-center">
-            <h2 class="text-3xl font-semibold md:text-5xl">Trouver l'<span
-                    class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">info</span> tout de suite
+            <h2 class="text-3xl font-semibold md:text-5xl">{{ trans:site.block_a_find_the }}<span
+                    class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">{{ trans:site.block_a_info }}</span> {{ trans:site.block_a_right_away }}
             </h2>
             <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
                 {{#<p class="text-[#636262]">Découvrez les courses, catégories, horaires, accès, etc.</p>#}}
@@ -115,11 +114,11 @@
     <div class="mx-auto max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
         <!-- Heading Div -->
         <div class="mx-auto w-full max-w-3xl text-center">
-            <h2 class="text-3xl font-semibold md:text-5xl">Toutes nos <span
-                    class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">courses</span>
+            <h2 class="text-3xl font-semibold md:text-5xl">{{ trans:site.block_b_all_our }} <span
+                    class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">{{ trans:site.block_b_runs }}</span>
             </h2>
             <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
-                <p class="text-[#636262]">Découvrez nos courses, catégories, horaires, règlements, etc.</p>
+                <p class="text-[#636262]">{{ trans:site.block_b_text }}</p>
             </div>
         </div>
         <!-- Features Div -->
@@ -146,7 +145,7 @@
 <section>
     <!-- Container -->
     <div class="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
-        <h2 class="mb-6 text-xl font-semibold md:mb-10 lg:mb-12 text-center">Course partenaire</h2>
+        <h2 class="mb-6 text-xl font-semibold md:mb-10 lg:mb-12 text-center">{{ trans:site.partner_race }}</h2>
         <div class="flex flex-row justify-center justify-items-center">
             <a href="https://www.traildeschateaux.ch/">
                 <img src="https://www.traildeschateaux.ch/custom-storage/logo.svg" alt="Logo Trail des châteaux" width="250"
@@ -162,15 +161,15 @@
     <div class="mx-auto max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
         <!-- Heading Div -->
         <div class="mx-auto w-full max-w-3xl text-center">
-            <h2 class="text-3xl font-semibold md:text-5xl">Devenir <span
-                    class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">bénévole</span>
+            <h2 class="text-3xl font-semibold md:text-5xl">{{ trans:site.block_c_become }} <span
+                    class="bg-[url('/assets/blue-bg-illustration.svg')] bg-cover bg-center bg-no-repeat px-4 text-white">{{ trans:site.block_c_volunteer }}</span>
             </h2>
             <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
-                <p class="text-[#636262]">Vous souhaitez participer à la course mais ne pouvez pas courir ? Chaque année, ce sont 300 personnes qui décident de donner de leur temps pour participer à l’organisation de la Course de Noël.</p>
+                <p class="text-[#636262]">{{ trans:site.block_c_text }}</p>
             </div>
         </div>
         <div class="flex flex-row justify-center justify-items-center">
-            <a href="{{ race:volunteer_registration_link }}" class="button-secondary">S'inscrire comme bénévole</a>
+            <a href="{{ race:volunteer_registration_link }}" class="button-secondary">{{ trans:site.register_as_volunteer }}</a>
         </div>
     </div>
 </section>

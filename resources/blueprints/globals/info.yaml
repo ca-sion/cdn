@@ -1,0 +1,481 @@
+tabs:
+  main:
+    display: Principal
+    sections:
+      -
+        display: 'Informations principales'
+        instructions: "Définissez les informations pour le site web. Ces informations seront utilisées dans l'ensemble du site, mais pas dans les métadonnées de référencement."
+        fields:
+          -
+            handle: name
+            field:
+              input_type: text
+              antlers: true
+              type: text
+              display: Nom
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: description
+            field:
+              antlers: true
+              type: textarea
+              display: Description
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+      -
+        display: 'Informations de contact principales'
+        fields:
+          -
+            handle: email
+            field:
+              input_type: email
+              antlers: false
+              type: text
+              display: 'statamic-site-kit::informations.fields.email.display'
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: phone
+            field:
+              input_type: tel
+              antlers: false
+              type: text
+              display: Téléphone
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: address
+            field:
+              antlers: false
+              type: textarea
+              display: Adresse
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: postal_code
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Code postal'
+              icon: text
+              width: 25
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: locality
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Localité
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: country
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Pays
+              icon: text
+              width: 25
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  map:
+    display: Carte
+    sections:
+      -
+        display: 'Coordonnées géographiques'
+        instructions: 'Définir les principales coordonnées géographiques pour le site web. D''autres points de contact peuvent être ajoutés dans la section "Points de contact".'
+        fields:
+          -
+            handle: geo_longitude
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Longitude
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: geo_latitude
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Latitude
+              icon: text
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+      -
+        display: 'Google Maps'
+        fields:
+          -
+            handle: google_place_id
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Google Place ID'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  logo:
+    display: Logo
+    sections:
+      -
+        display: Logos
+        instructions: "Mettez tous les logos utilisés dans le site Web. Nous vous recommandons d'utiliser les formats .png, .webp ou .svg."
+        fields:
+          -
+            handle: logo
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: logo
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Logo principal'
+              icon: assets
+              instructions: 'Logo principal ou logo en couleur'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: logo_white
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: logo
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Logo blanc'
+              icon: assets
+              instructions: 'Logo blanc avec fond transparent'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: logo_bw
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: logo
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Logo noir et blanc'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: logo_square
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: logo
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Logo carré'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  socials:
+    display: 'Réseaux sociaux'
+    sections:
+      -
+        display: 'Réseaux sociaux'
+        instructions: 'Ajouter les liens vers les médias sociaux dans le tableau ci-dessous.'
+        fields:
+          -
+            handle: social_links
+            field:
+              fields:
+                -
+                  handle: social_icon
+                  field:
+                    options:
+                      amazon: Amazon
+                      android: Android
+                      apple: Apple
+                      behance: Behance
+                      bitbucket: Bitbucket
+                      codepen: Codepen
+                      dribbble: Dribbble
+                      facebook: Facebook
+                      flickr: Flickr
+                      foursquare: Foursquare
+                      github: Github
+                      google-plus: 'Google Plus'
+                      instagram: Instagram
+                      linkedin: LinkedIn
+                      medium: Medium
+                      meetup: Meetup
+                      orcid: ORCID
+                      pinterest: Pinterest
+                      reddit: Reddit
+                      researchgate: ResearchGate
+                      skype: Skype
+                      slack: Slack
+                      soundcloud: Soundcloud
+                      spotify: Spotify
+                      twitch: Twitch
+                      twitter: Twitter
+                      tumblr: Tumblr
+                      whatsapp: WhatsApp
+                      yelp: Yelp
+                      youtube: YouTube
+                    taggable: false
+                    push_tags: false
+                    multiple: false
+                    clearable: false
+                    searchable: true
+                    cast_booleans: false
+                    type: select
+                    display: Icône
+                    icon: select
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+                    width: 50
+                -
+                  handle: url
+                  field:
+                    input_type: url
+                    antlers: false
+                    type: text
+                    display: URL
+                    icon: text
+                    width: 50
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    hide_display: false
+              mode: table
+              reorderable: true
+              fullscreen: true
+              type: grid
+              display: 'Liens vers les médias sociaux'
+              icon: grid
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  marketing:
+    display: Marketing
+    sections:
+      -
+        display: Favicon
+        instructions: "Téléchargez un favicon qui apparaîtra dans les résultats de recherche et dans le navigateur. Il est recommandé que votre favicon soit : - Un multiple de 48px carré en dimensions; - Un format de fichier favicon supporté, nous recommandons d'utiliser .png."
+        fields:
+          -
+            handle: favicon
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: logo
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: Favicon
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: favicon_svg
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: logo
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Favicon (SVG)'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+      -
+        display: 'Données structurées'
+        fields:
+          -
+            handle: structured_data_type
+            field:
+              options:
+                organization: Organization
+                person: Person
+                local_business: LocalBusiness
+              inline: false
+              cast_booleans: false
+              type: radio
+              display: Type
+              icon: radio
+              instructions: 'Définissez si le contenu de ce site Web représente une entreprise ou une personne.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: structured_data_target_name
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Nom de la cible'
+              icon: text
+              instructions: 'Entrez le nom de la personne/société ici'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: structured_data_logo
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: logo
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: false
+              type: assets
+              display: Logo
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              if:
+                structured_data_type: 'contains_any organization,local_business'
+          -
+            handle: structured_data_code
+            field:
+              theme: material
+              mode: json
+              mode_selectable: true
+              indent_type: tabs
+              indent_size: 4
+              key_map: default
+              line_numbers: true
+              line_wrapping: true
+              antlers: false
+              type: code
+              display: 'statamic-site-kit::general.fields.custom_structured_data.display'
+              icon: code
+              instructions: 'statamic-site-kit::general.fields.custom_structured_data.instruct'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+      -
+        display: Manifestes
+        instructions: 'statamic-site-kit::manifests.fields.analytics_manifest_section.instruct'
+        fields:
+          -
+            handle: analytics_manifest
+            field:
+              theme: material
+              mode: txt
+              mode_selectable: true
+              indent_type: tabs
+              indent_size: 4
+              key_map: default
+              line_numbers: true
+              line_wrapping: true
+              antlers: false
+              type: code
+              display: "Manifeste d'analyse (Analytics manifest)"
+              icon: code
+              instructions: "Une proposition de norme qui permet aux sites web et aux services de divulguer des informations sur leur utilisation de logiciels d'analyse et de suivi des utilisateurs. Pour plus d'informations sur cette initiative ou la syntaxe, veuillez consulter le site : https://www.analyticstxt.org/."
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: security_manifest
+            field:
+              theme: material
+              mode: txt
+              mode_selectable: true
+              indent_type: tabs
+              indent_size: 4
+              key_map: default
+              line_numbers: true
+              line_wrapping: true
+              antlers: false
+              type: code
+              display: 'Manifeste de sécurité (Security manifest)'
+              icon: code
+              instructions: "Une proposition de norme qui permet aux sites web de définir des politiques de sécurité. Pour plus d'informations sur cette initiative ou la syntaxe, veuillez consulter le site : https://securitytxt.org/."
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false

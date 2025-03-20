@@ -12,14 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.7/dist/cdn.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.0.0/dist/iconify-icon.min.js"></script>
 
-
-
+    {{ seo_pro:meta }}
     {{ ssk:head }}
     {{ stack:head }}
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    {{ ssk:body }}
     <div class="relative">
 
         {{ partial:navigation}}
@@ -36,6 +34,5 @@
         AOS.init();
     </script>
 
-    {{ ssk:footer }}
     {{ stack:bottom }}
 </body>

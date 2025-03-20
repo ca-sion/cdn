@@ -1,4 +1,8 @@
 title: Pages
+sites:
+  - default
+  - de
+propagate: false
 template: default
 layout: layout
 revisions: false

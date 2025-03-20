@@ -1,20 +1,20 @@
 tree:
   -
     id: b4e2034d-4db9-4f60-8813-d5fa0a274ca1
-    title: Participer
+    title: Teilnehmen
     children:
       -
-        id: 7f097c62-ab96-411d-a035-5d1273533bf5
-        entry: b45d1533-44ce-44e9-a141-b3303ae0de5d
+        id: 4799fc20-e872-4249-8982-c94c47832e00
+        entry: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
       -
-        id: a2835b21-5c28-4234-b890-7b9734868db4
-        entry: 7364e9f2-a67f-428f-92eb-1562163d50f4
+        id: bcc0618c-4f55-4c4b-9792-d7910cbcc722
+        entry: d13ac3b5-f7d9-42f9-bcd8-cf03277b182f
       -
-        id: 46cf56e2-0b9f-4b1e-926a-d3537d8bb03c
-        entry: 01fa5920-2d0a-44d9-af4e-b63f07bbcce8
+        id: cfd50530-ca6d-4156-89c8-530fe491fdb8
+        entry: 5d9f6c16-13a6-4ccb-9a73-60602cece4d8
       -
-        id: 6fa4eeb1-5285-4402-a699-18783f180bb2
-        entry: 9c0d8742-133d-42f7-a0cb-5be5f45232e5
+        id: 3b525a38-cf26-4eb2-ac67-e517984d3626
+        entry: 187fe294-a5b3-4a6a-b278-65de8f101eff
       -
         id: 05abfaad-5659-4e2e-805b-c6f58e8c6782
         entry: 1411ede9-da6a-491e-90dd-bfe0f46e2102

@@ -1,0 +1,10 @@
+default:
+  name: Français
+  locale: fr_CH
+  url: /
+  lang: fr
+de:
+  name: Deutsch
+  url: /de/
+  locale: de_CH
+  lang: de

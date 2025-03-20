@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'christmas_race' => 'Course de Noël',
+    'christmas_race_lead' => 'Doyenne des courses suisse, la Course de Noël se déroule au milieu de la vieille ville de Sion en Valais',
+    'help_and_contact' => 'Aide et contact',
+    'entrylists' => 'Listes de départ',
+    'results' => 'Résultats',
+    'register' => 'S\'inscrire',
+    'practical_infos' => 'Infos pratiques',
+    'main_sponsors' => 'Sponsors principaux',
+    'partner_race' => 'Course partenaire',
+    'register_as_volunteer' => 'S\'inscrire comme bénévole',
+    'block_a_find_the' => 'Trouver l\'',
+    'block_a_info' => 'info',
+    'block_a_right_away' => 'tout de suite',
+    'block_b_all_our' => 'Toutes nos',
+    'block_b_runs' => 'courses',
+    'block_b_text' => 'Découvrez nos courses, catégories, horaires, règlements, etc.',
+    'block_c_become' => 'Devenir',
+    'block_c_volunteer' => 'bénévole',
+    'block_c_text' => 'Vous souhaitez participer à la course mais ne pouvez pas courir ? Chaque année, ce sont 300 personnes qui décident de donner de leur temps pour participer à l’organisation de la Course de Noël.',
+    'AAA' => 'AAA',
+    'AAA' => 'AAA',
+    'AAA' => 'AAA',
+    'AAA' => 'AAA',
+];

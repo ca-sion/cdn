@@ -26,7 +26,15 @@
             {{ /nav:footer }}
         </div>
         <div class="max-[991px]:flex-none">
-          <p class="text-[#bcb9b9] max-[479px]:text-sm">Artisé par <a href="https://michaelravedoni.ch" class="hover:text-secondary transition">MR</a></p>
+          <div class="text-[#bcb9b9] max-[479px]:text-sm">
+            <span>Artisé par <a href="https://michaelravedoni.ch" class="hover:text-secondary transition">MR</a></span>
+            ·
+            <span class="text-[#bcb9b9] max-[479px]:text-sm">
+              {{ locales }}
+                <a class="{{ is_current ?= 'underline' }}" href="{{ url }}">{{ locale:short | upper }}</a>
+              {{ /locales }}
+            </span>
+          </div>
         </div>
       </div>
     </div>

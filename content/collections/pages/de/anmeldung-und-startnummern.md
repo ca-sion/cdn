@@ -1,19 +1,9 @@
 ---
-id: b45d1533-44ce-44e9-a141-b3303ae0de5d
-blueprint: page
-title: 'Inscriptions et dossards'
-author: 668b8e8a-6f34-46cf-8776-6e9724209df3
+id: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
+origin: b45d1533-44ce-44e9-a141-b3303ae0de5d
+title: 'Anmeldung und Startnummern'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1734017358
-parent: home
-use_meta_keywords: false
-no_index_page: false
-no_follow_links: false
-sitemap_priority: '0.5'
-sitemap_changefreq: daily
-override_twitter_settings: false
-icon: 'noto:writing-hand'
-duplicated_from: 298d23bc-4508-4a3a-b34d-575dda28e0d0
+updated_at: 1742476221
 content:
   -
     type: heading
@@ -23,7 +13,7 @@ content:
     content:
       -
         type: text
-        text: Inscriptions
+        text: Anmeldungen
   -
     type: bulletList
     content:
@@ -40,16 +30,16 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Individuels '
+                text: 'Einzelpersonen '
               -
                 type: text
-                text: 'et entreprises de '
+                text: 'und Unternehmen mit '
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'moins de 20 personnes'
+                text: 'weniger als 20 Personen'
               -
                 type: text
                 text: ' : '
