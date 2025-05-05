@@ -1,5 +1,6 @@
 ---
 id: 0b429672-4139-46bc-9356-664156d8b197
+published: false
 blueprint: partner
 title: SportX
 logo: partners/sportx-logo.png
