@@ -3,7 +3,7 @@ id: 3048edaa-77a3-422c-9034-9aef03634de1
 origin: 298d23bc-4508-4a3a-b34d-575dda28e0d0
 title: 'Praktische Infos und Plan'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742481685
+updated_at: 1752571744
 content:
   -
     type: paragraph
@@ -270,6 +270,33 @@ content:
       -
         type: text
         text: 'Versichert durch Datasport mit einem Chip.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Speaker
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Unterstützt von '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.crettazprod.ch/'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Crettaz Prod'
   -
     type: paragraph
     attrs:

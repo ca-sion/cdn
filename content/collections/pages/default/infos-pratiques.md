@@ -4,8 +4,7 @@ blueprint: page
 title: 'Infos pratiques et plan'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1733821833
-parent: home
+updated_at: 1752571652
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -279,6 +278,33 @@ content:
       -
         type: text
         text: 'Assuré par Datasport avec une puce.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Speaker
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Assuré par '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.crettazprod.ch/'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Crettaz Prod'
   -
     type: paragraph
     attrs:
