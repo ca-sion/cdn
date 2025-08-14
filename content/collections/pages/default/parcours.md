@@ -10,8 +10,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1729329381
-parent: home
+updated_at: 1755169643
 content:
   -
     type: heading
@@ -30,7 +29,7 @@ content:
       -
         type: image
         attrs:
-          src: 'asset::assets::documents/plan-parcours-2023.png'
+          src: 'asset::assets::documents/plan-parcours-2025.png'
           alt: null
   -
     type: heading
@@ -49,6 +48,6 @@ content:
       -
         type: image
         attrs:
-          src: 'asset::assets::documents/plan-parcours-entreprise-2023.png'
+          src: 'asset::assets::documents/plan-parcours-entreprise-2025.png'
           alt: null
 ---
