@@ -3,8 +3,7 @@ id: 9c0d8742-133d-42f7-a0cb-5be5f45232e5
 blueprint: page
 title: Entraînements
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1728974678
-parent: home
+updated_at: 1755170212
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -54,6 +53,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: '12 novembre'
       -
         type: listItem
@@ -65,6 +67,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: '19 novembre'
       -
         type: listItem
@@ -76,6 +81,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: '26 novembre'
       -
         type: listItem
@@ -87,6 +95,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: '3 décembre'
   -
     type: paragraph

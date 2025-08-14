@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742481014
+updated_at: 1755170648
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -23,7 +23,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Worum geht es?'
+        text: "De quoi s'agit-il ?"
   -
     type: bulletList
     content:
@@ -37,7 +37,7 @@ content:
             content:
               -
                 type: text
-                text: 'Rennen für Klassenteams für die Klassenstufen 3H bis 8H.'
+                text: 'Course par équipes pour les classes de la 3H à la 8H.'
       -
         type: listItem
         content:
@@ -48,7 +48,7 @@ content:
             content:
               -
                 type: text
-                text: 'Ein Team besteht aus mindestens 8 Schülerinnen und Schülern derselben Klasse und desselben Schulzentrums, darunter mindestens 3 Mädchen. Es gibt keine Höchstgrenze.'
+                text: "Une équipe se compose d'au moins 8 élèves de la même classe et du même centre scolaire, dont au moins 3 filles. Il n'y a pas de limite maximale."
       -
         type: listItem
         content:
@@ -59,7 +59,7 @@ content:
             content:
               -
                 type: text
-                text: 'Die Rangfolge ergibt sich aus der Addition der 8 besten chronometrischen Ergebnisse jeder Klasse, wobei die Ergebnisse der 3 besten Mädchen zwingend einbezogen werden müssen.'
+                text: 'Le classement est établi en additionnant les 8 meilleurs résultats chronométriques de chaque classe, les résultats des 3 meilleures filles devant obligatoirement être pris en compte.'
   -
     type: heading
     attrs:
@@ -71,7 +71,7 @@ content:
         marks:
           -
             type: bold
-        text: Teilnahmegebühr
+        text: 'Frais de participation'
   -
     type: paragraph
     attrs:
@@ -82,7 +82,7 @@ content:
         marks:
           -
             type: underline
-        text: 'Gemeinden von Sion, Savièse, Nendaz, Veysonnaz und Conthey'
+        text: 'Communes de Sion, Savièse, Nendaz, Veysonnaz et Conthey'
   -
     type: bulletList
     content:
@@ -96,7 +96,7 @@ content:
             content:
               -
                 type: text
-                text: 'In diesen Gemeinden ist die Anmeldung für die Schülerinnen und Schüler kostenlos. Nach dem Rennen wird den Gemeinden eine Rechnung zugeschickt.'
+                text: "Dans ces communes, l'inscription est gratuite pour les élèves. Une facture sera envoyée aux communes après la course."
   -
     type: paragraph
     attrs:
@@ -107,7 +107,7 @@ content:
         marks:
           -
             type: underline
-        text: 'Andere Gemeinden'
+        text: 'Autres communes'
   -
     type: bulletList
     content:
@@ -121,7 +121,16 @@ content:
             content:
               -
                 type: text
-                text: '7 CHF pro Schüler/in (Kosten für Startnummer, Zeitmessung und Erinnerungspreis). Die Zahlung ist bis zum 01.12.2024 zu leisten.'
+                text: '7 CHF par élève (frais pour le dossard, le chronométrage et le prix souvenir). Le paiement doit être effectué avant le '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: 01.12.2024
+              -
+                type: text
+                text: .
       -
         type: listItem
         content:
@@ -137,7 +146,7 @@ content:
                 type: hardBreak
               -
                 type: text
-                text: 'Angabe: Schulzentrum, Stufe, Name des Klassenlehrers und der Begleitperson'
+                text: "Indiquer : centre scolaire, niveau, nom du professeur principal et de l'accompagnateur."
   -
     type: heading
     attrs:
@@ -149,7 +158,7 @@ content:
         marks:
           -
             type: bold
-        text: Anmeldung
+        text: Inscription
   -
     type: paragraph
     attrs:
@@ -160,17 +169,25 @@ content:
         marks:
           -
             type: bold
-        text: 'Frist: 1. Dezember 2024'
+        text: 'Délai: '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: strike
+        text: '1er décembre 2024'
       -
         type: hardBreak
       -
         type: text
-        text: 'Achtung: Zweistufige Klassen müssen in der höheren Kategorie angemeldet werden. Zum Beispiel: 3H + 4H = 4H.'
+        text: 'Attention : les classes à deux niveaux doivent être inscrites dans la catégorie supérieure. Par exemple : 3H + 4H = 4H.'
       -
         type: hardBreak
       -
         type: text
-        text: 'Anmeldung der Schülerinnen und Schüler verpflichtend nur durch die Klassenlehrerinnen und Klassenlehrer, wobei diese Schritte zu befolgen sind :'
+        text: "L'inscription des élèves doit obligatoirement être effectuée par les enseignants titulaires, qui doivent suivre les étapes suivantes :"
   -
     type: orderedList
     attrs:
@@ -189,7 +206,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Formular herunterladen'
+                text: 'Télécharger le formulaire'
               -
                 type: text
                 text: ' : '
@@ -214,7 +231,7 @@ content:
             content:
               -
                 type: text
-                text: 'Schüler anmelden und alle Rubriken ausfüllen'
+                text: 'Inscrivez les élèves et remplissez toutes les rubriques'
       -
         type: listItem
         content:
@@ -228,7 +245,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Senden Sie die Datei an '
+                text: 'Envoyez le fichier à '
               -
                 type: text
                 marks:
@@ -253,7 +270,7 @@ content:
         marks:
           -
             type: bold
-        text: Preis
+        text: Prix
   -
     type: bulletList
     content:
@@ -267,7 +284,7 @@ content:
             content:
               -
                 type: text
-                text: 'Sonderpreis für jeden Teilnehmer/jede Teilnehmerin, der/die das Rennen beendet für die drei besten Klassen in jeder Kategorie'
+                text: 'Prix spécial pour chaque participant·e ayant terminé la course pour les trois meilleures classes dans chaque catégorie.'
       -
         type: listItem
         content:
@@ -278,7 +295,7 @@ content:
             content:
               -
                 type: text
-                text: 'Erinnerungspreis (Medaille) für jeden Schüler, der die Ziellinie überquert.'
+                text: "Prix souvenir (médaille) pour chaque élève ayant franchi la ligne d'arrivée."
   -
     type: heading
     attrs:
@@ -290,7 +307,7 @@ content:
         marks:
           -
             type: bold
-        text: Stundenplan
+        text: Horaires
   -
     type: table
     content:
@@ -848,10 +865,7 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: 'Bekanntgabe der Ergebnisse'
+        text: 'Annonce des résultats'
   -
     type: paragraph
     attrs:
@@ -862,7 +876,7 @@ content:
         marks:
           -
             type: italic
-        text: '[Für 2025, noch zu bestätigen]'
+        text: '[Pour 2026, à confirmer]'
   -
     type: paragraph
     attrs:
@@ -873,7 +887,7 @@ content:
         marks:
           -
             type: italic
-        text: 'Ab 14.45 Uhr im Festzelt.'
+        text: 'À partir de 14h45 sous la tente.'
   -
     type: paragraph
     attrs:
@@ -884,7 +898,7 @@ content:
         marks:
           -
             type: italic
-        text: 'Die Preisverleihung für die drei besten Klassen pro Kategorie findet zwischen dem 16. und 20. Dezember statt.'
+        text: 'La remise des prix aux trois meilleures classes de chaque catégorie aura lieu entre le 16 et le 20 décembre.'
   -
     type: heading
     attrs:
@@ -896,7 +910,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Kollektive Trainings'
+        text: 'Entraînements collectifs'
   -
     type: paragraph
     attrs:
@@ -904,7 +918,7 @@ content:
     content:
       -
         type: text
-        text: '30-minütiges Training mit den Athleten des Centre athlétique de Sion. Im Ancien Stand in Sion :'
+        text: "Entraînement de 30 minutes avec les athlètes du Centre athlétique de Sion. À l'Ancien Stand à Sion :"
   -
     type: bulletList
     content:
@@ -921,7 +935,7 @@ content:
                 marks:
                   -
                     type: strike
-                text: 'am Freitag, den 29. November 2024, um 17:15 Uhr'
+                text: 'le vendredi 29 novembre 2024, à 17h15;'
       -
         type: listItem
         content:
@@ -935,7 +949,7 @@ content:
                 marks:
                   -
                     type: strike
-                text: 'und Freitag, den 6. Dezember 2024, um 17:15 Uhr'
+                text: 'et vendredi 6 décembre 2024, à 17h15,'
   -
     type: paragraph
     attrs:
@@ -943,76 +957,7 @@ content:
     content:
       -
         type: text
-        text: 'Training auf der Strecke des Weihnachtslaufs'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: 'Am '
-      -
-        type: text
-        marks:
-          -
-            type: strike
-        text: 'Mittwoch, den 11. Dezember 2024, um 17.15 Uhr'
-      -
-        type: text
-        text: '. Treffpunkt vor der „Katharina“ auf der Spitze des Place de la Planta.'
-  -
-    type: heading
-    attrs:
-      textAlign: left
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: Startnummern
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: 'Die Startnummern müssen ab 10:30 Uhr von der verantwortlichen Begleitperson der Klasse in der Sporthalle des Collège de la Planta, rechts am oberen Ende der Avenue de la Gare (Aula de la Planta), abgeholt werden.'
-  -
-    type: heading
-    attrs:
-      textAlign: left
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: Abreise
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: 'Die Teilnehmer/innen befinden sich spätestens 10 Minuten vor Beginn ihres Laufs bei der Startlinie in der Rue de Lausanne, in der Nähe des Restaurants „Les Brasseurs“, um sich mit Musik aufzuwärmen.'
-  -
-    type: heading
-    attrs:
-      textAlign: left
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Zusätzliche Informationen für Klassenlehrerinnen und Klassenlehrer'
+        text: 'Entraînement sur le parcours de la course de Noël :'
   -
     type: bulletList
     content:
@@ -1026,7 +971,59 @@ content:
             content:
               -
                 type: text
-                text: 'Die Anmeldung muss ausschließlich durch den Klassenlehrer erfolgen.'
+                text: 'Le mercredi 11 décembre 2024, à 17h15. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Dossards
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Les dossards doivent être retirés à partir de 10h30 par l'accompagnateur responsable de la classe dans la salle de sport du Collège de la Planta, situé à droite en haut de l'avenue de la Gare (Aula de la Planta)."
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Départ
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Les participants se trouvent au plus tard 10 minutes avant le début de leur course à la ligne de départ dans la rue de Lausanne, près du restaurant « Les Brasseurs », afin de s'échauffer en musique."
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Informations supplémentaires pour les enseignants titulaires'
+  -
+    type: bulletList
+    content:
       -
         type: listItem
         content:
@@ -1037,7 +1034,7 @@ content:
             content:
               -
                 type: text
-                text: 'Die Klassenlehrer der ordnungsgemäß angemeldeten Klassen erhalten bis zum 12. Dezember per E-Mail die letzten Anweisungen.'
+                text: "L'inscription doit être effectuée exclusivement par le professeur principal."
       -
         type: listItem
         content:
@@ -1048,5 +1045,16 @@ content:
             content:
               -
                 type: text
-                text: 'Wenn sie ihre Schülerinnen und Schüler am Tag des Rennens nicht persönlich begleiten, müssen sie diese letzten Anweisungen an die verantwortliche Person weiterleiten, die sie am Tag des Rennens vertritt.'
+                text: 'Les professeurs principaux des classes dûment inscrites recevront les dernières instructions par e-mail avant le 12 décembre.'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: "S'ils n'accompagnent pas personnellement leurs élèves le jour de la course, ils doivent transmettre ces dernières instructions à la personne responsable qui les remplace le jour de la course."
 ---

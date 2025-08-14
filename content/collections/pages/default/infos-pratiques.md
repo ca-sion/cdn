@@ -4,7 +4,7 @@ blueprint: page
 title: 'Infos pratiques et plan'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1752571652
+updated_at: 1755170696
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -31,7 +31,7 @@ content:
     content:
       -
         type: text
-        text: 'Samedi 14 décembre 2024, dans les rues de la Vieille ville de Sion et sur la Place de la Planta'
+        text: 'Samedi 13 décembre 2025, dans les rues de la Vieille ville de Sion et sur la Place de la Planta'
   -
     type: paragraph
     attrs:
