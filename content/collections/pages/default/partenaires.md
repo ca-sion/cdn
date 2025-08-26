@@ -4,7 +4,7 @@ blueprint: page
 title: Partenaires
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1755169500
+updated_at: 1756202247
 template: partners/index
 use_meta_keywords: false
 no_index_page: false
@@ -47,7 +47,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'https://drive.google.com/open?id=1icMSe-88o5mWhaZM4cY5QJ8pjl7YvM-0&usp=drive_fs'
+                      href: 'statamic://asset::assets::documents/dossier_sponsoring-2025-online.pdf'
                       rel: null
                       target: _blank
                       title: null
@@ -66,7 +66,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'https://drive.google.com/open?id=1OjJD3YbKTbaxkopdLTyeIf5tSG0CshpH&usp=drive_fs'
+                      href: 'statamic://asset::assets::documents/dossier_sponsoring-packages-2025.pdf'
                       rel: null
                       target: _blank
                       title: null
