@@ -3,7 +3,7 @@ id: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
 origin: b45d1533-44ce-44e9-a141-b3303ae0de5d
 title: 'Anmeldung und Startnummern'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742483634
+updated_at: 1756472006
 content:
   -
     type: heading
@@ -358,7 +358,13 @@ content:
                 text: 'Klassen:'
               -
                 type: text
-                text: ' 1. Dezember 2024.'
+                text: ' '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: '1. Dezember 2024.'
       -
         type: listItem
         content:
@@ -375,7 +381,7 @@ content:
                 text: 'Unternehmen:'
               -
                 type: text
-                text: ' 4. Dezember 2024.'
+                text: ' 3. Dezember 2025.'
   -
     type: heading
     attrs:

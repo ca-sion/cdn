@@ -2,8 +2,9 @@
 id: d069d79e-f5a0-4f16-a389-775488c32636
 origin: 3375831e-4769-4795-a956-ab5761ebf784
 title: 'Challenge entreprises'
+icon: 'noto:running-shirt'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742481268
+updated_at: 1756471928
 content:
   -
     type: heading
@@ -168,9 +169,7 @@ content:
                 marks:
                   -
                     type: bold
-                  -
-                    type: strike
-                text: '4. Dezember 2024'
+                text: '3. Dezember 2025'
       -
         type: listItem
         content:
@@ -276,9 +275,7 @@ content:
                 marks:
                   -
                     type: bold
-                  -
-                    type: strike
-                text: '4. Dezember 2024'
+                text: '3. Dezember 2025'
       -
         type: listItem
         content:
@@ -395,15 +392,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Bestellfrist: '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: strike
-                text: '8. November 2024'
+                text: 'Bestellfrist: 7. November 2025'
       -
         type: listItem
         content:
@@ -421,7 +410,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-texner-2024.pdf'
+                      href: 'statamic://asset::assets::documents/fo-texner-2025.pdf'
                       rel: null
                       target: _blank
                       title: null

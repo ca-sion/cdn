@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742483151
+updated_at: 1756472018
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -428,7 +428,7 @@ content:
                 marks:
                   -
                     type: strike
-                text: '4 décembre 2024.'
+                text: '3 décembre 2025.'
   -
     type: heading
     attrs:
@@ -468,6 +468,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: "Majoration du prix de l'inscription : 10 CHF/adulte et 5 CHF/enfant"
       -
         type: listItem
@@ -479,6 +482,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: 'Aula du Lycée collège de la Planta. (Angle Av. de la Gare/Av. Ritz).'
   -
     type: heading

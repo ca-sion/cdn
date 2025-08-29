@@ -4,7 +4,7 @@ blueprint: run
 title: 'Challenge entreprises'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1732382046
+updated_at: 1756471941
 icon: 'noto:running-shirt'
 use_meta_keywords: false
 no_index_page: false
@@ -176,7 +176,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '4 décembre 2024'
+                text: '3 décembre 2025'
       -
         type: listItem
         content:
@@ -279,7 +279,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '4 décembre 2024'
+                text: '3 décembre 2025'
       -
         type: listItem
         content:
@@ -399,7 +399,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '8 novembre 2024'
+                text: '7 novembre 2025'
       -
         type: listItem
         content:
@@ -417,7 +417,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-texner-2024.pdf'
+                      href: 'statamic://asset::assets::documents/fo-texner-2025.pdf'
                       rel: null
                       target: _blank
                       title: null
