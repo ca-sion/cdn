@@ -2,7 +2,6 @@
 id: 0c9bd2e1-489a-4de6-8dbc-08702b05fb9c
 blueprint: page
 title: Info
-parent: 368f17c5-b951-4c23-a4d6-8af2a830c48d
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -10,7 +9,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1733217383
+updated_at: 1757330072
 content:
   -
     type: heading
@@ -113,7 +112,7 @@ content:
       -
         type: image
         attrs:
-          src: 'asset::assets::documents/2024-horaire.jpg'
+          src: 'asset::assets::documents/2025-horaire.jpg'
           alt: null
   -
     type: paragraph

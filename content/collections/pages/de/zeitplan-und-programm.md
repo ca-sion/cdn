@@ -19,7 +19,7 @@ content:
           -
             type: link
             attrs:
-              href: 'statamic://asset::assets::documents/2024-horaire.pdf'
+              href: ''
               rel: null
               target: _blank
               title: null
@@ -30,7 +30,7 @@ content:
           -
             type: link
             attrs:
-              href: 'statamic://asset::assets::documents/2024-horaire.pdf'
+              href: ''
               rel: null
               target: _blank
               title: null
@@ -45,6 +45,6 @@ content:
       -
         type: image
         attrs:
-          src: 'asset::assets::documents/2024-horaire.jpg'
+          src: ''
           alt: null
 ---

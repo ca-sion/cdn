@@ -9,8 +9,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1732544053
-parent: home
+updated_at: 1757330177
 content:
   -
     type: heading
@@ -72,6 +71,34 @@ content:
       -
         type: text
         text: Visuels
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Affiche 2025 : '
+      -
+        type: text
+        marks:
+          -
+            type: strike
+        text: PDF
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Flyer 2025 : '
+      -
+        type: text
+        marks:
+          -
+            type: strike
+        text: PDF
   -
     type: paragraph
     attrs:

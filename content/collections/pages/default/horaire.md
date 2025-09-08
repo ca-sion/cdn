@@ -4,7 +4,7 @@ blueprint: page
 title: 'Horaire et programme'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742483065
+updated_at: 1757330057
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -27,24 +27,11 @@ content:
           -
             type: link
             attrs:
-              href: 'statamic://asset::assets::documents/2024-horaire.pdf'
+              href: 'statamic://asset::assets::documents/2025-horaire.pdf'
               rel: null
-              target: _blank
+              target: null
               title: null
-        text: 'Course de Noël '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'statamic://asset::assets::documents/2024-horaire.pdf'
-              rel: null
-              target: _blank
-              title: null
-          -
-            type: strike
-        text: '2024'
+        text: 'Course de Noël 2025'
   -
     type: paragraph
     attrs:
@@ -53,6 +40,6 @@ content:
       -
         type: image
         attrs:
-          src: 'asset::assets::documents/2024-horaire.jpg'
+          src: 'asset::assets::documents/2025-horaire.jpg'
           alt: null
 ---
