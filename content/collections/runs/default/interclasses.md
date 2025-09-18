@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1755170648
+updated_at: 1758213229
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -121,16 +121,7 @@ content:
             content:
               -
                 type: text
-                text: '7 CHF par élève (frais pour le dossard, le chronométrage et le prix souvenir). Le paiement doit être effectué avant le '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: 01.12.2024
-              -
-                type: text
-                text: .
+                text: '10 CHF par élève (frais pour le dossard, le chronométrage et le prix souvenir). Le paiement doit être effectué avant le 01.12.2025.'
       -
         type: listItem
         content:
@@ -160,6 +151,17 @@ content:
             type: bold
         text: Inscription
   -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: '⚠️ Places limitées, les inscriptions se font selon le principe du premier arrivé, premier servi.'
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -169,15 +171,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Délai: '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: strike
-        text: '1er décembre 2024'
+        text: 'Délai: 30 novembre 2025'
       -
         type: hardBreak
       -
@@ -876,7 +870,7 @@ content:
         marks:
           -
             type: italic
-        text: '[Pour 2026, à confirmer]'
+        text: '[Pour 2025, à confirmer]'
   -
     type: paragraph
     attrs:
@@ -898,6 +892,8 @@ content:
         marks:
           -
             type: italic
+          -
+            type: strike
         text: 'La remise des prix aux trois meilleures classes de chaque catégorie aura lieu entre le 16 et le 20 décembre.'
   -
     type: heading

@@ -3,7 +3,7 @@ id: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
 origin: b45d1533-44ce-44e9-a141-b3303ae0de5d
 title: 'Anmeldung und Startnummern'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1756472006
+updated_at: 1758213379
 content:
   -
     type: heading
@@ -324,10 +324,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: '13. Dezember 2024'
+                text: '9. Dezember 2025'
   -
     type: blockquote
     content:
@@ -338,7 +335,7 @@ content:
         content:
           -
             type: text
-            text: 'Melden Sie sich bis zum 8. Dezember 2024 an, um Ihren Namen auf der Startnummer zu haben.'
+            text: 'Melden Sie sich bis zum 5. Dezember 2025 an, um Ihren Namen auf der Startnummer zu haben.'
   -
     type: bulletList
     content:
@@ -358,13 +355,7 @@ content:
                 text: 'Klassen:'
               -
                 type: text
-                text: ' '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: '1. Dezember 2024.'
+                text: ' 30. November 2025.'
       -
         type: listItem
         content:
@@ -381,7 +372,7 @@ content:
                 text: 'Unternehmen:'
               -
                 type: text
-                text: ' 3. Dezember 2025.'
+                text: ' 30. November 2025.'
   -
     type: heading
     attrs:
@@ -390,10 +381,18 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: strike
         text: 'Anmeldung vor Ort (am selben Tag)'
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: '⚠️ Keine Anmeldung vor Ort für die Kategorien Titi, Schüler C, Schüler B und Schüler A.'
   -
     type: bulletList
     content:
@@ -407,9 +406,6 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
                 text: 'Bis 60 Minuten vor Abflug möglich, online oder vor Ort'
       -
         type: listItem

@@ -3,7 +3,7 @@ id: 0f0392fc-74e2-4776-88cc-62038498aaf0
 origin: ecad7304-7aa8-4778-97db-8596e9596fee
 title: Interklassen
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1755170329
+updated_at: 1758213244
 content:
   -
     type: heading
@@ -114,7 +114,7 @@ content:
             content:
               -
                 type: text
-                text: '7 CHF pro Schüler/in (Kosten für Startnummer, Zeitmessung und Erinnerungspreis). Die Zahlung ist bis zum 01.12.2024 zu leisten.'
+                text: '10 CHF pro Schüler/in (Kosten für Startnummer, Zeitmessung und Erinnerungspreis). Die Zahlung ist bis zum 01.12.2025 zu leisten.'
       -
         type: listItem
         content:
@@ -144,6 +144,17 @@ content:
             type: bold
         text: Anmeldung
   -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: '⚠️ Begrenzte Teilnehmerzahl, Anmeldungen werden in der Reihenfolge ihres Eingangs berücksichtigt.'
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -153,7 +164,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Frist: 1. Dezember 2024'
+        text: 'Frist: 30. November 2025'
       -
         type: hardBreak
       -
@@ -877,6 +888,8 @@ content:
         marks:
           -
             type: italic
+          -
+            type: strike
         text: 'Die Preisverleihung für die drei besten Klassen pro Kategorie findet zwischen dem 16. und 20. Dezember statt.'
   -
     type: heading

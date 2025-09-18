@@ -4,7 +4,7 @@ blueprint: run
 title: 'Challenge entreprises'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1756471941
+updated_at: 1758212889
 icon: 'noto:running-shirt'
 use_meta_keywords: false
 no_index_page: false
@@ -176,7 +176,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '3 décembre 2025'
+                text: '30 novembre 2025'
       -
         type: listItem
         content:
@@ -279,7 +279,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '3 décembre 2025'
+                text: '30 novembre 2025'
       -
         type: listItem
         content:

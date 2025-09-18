@@ -4,7 +4,7 @@ origin: 3375831e-4769-4795-a956-ab5761ebf784
 title: 'Challenge entreprises'
 icon: 'noto:running-shirt'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1756471928
+updated_at: 1758213051
 content:
   -
     type: heading
@@ -169,7 +169,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '3. Dezember 2025'
+                text: '30. November 2025'
       -
         type: listItem
         content:
@@ -275,7 +275,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '3. Dezember 2025'
+                text: '30. November 2025'
       -
         type: listItem
         content:

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1756472018
+updated_at: 1758212564
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -342,10 +342,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: '13 décembre 2024'
+                text: '9 décembre 2025'
   -
     type: blockquote
     content:
@@ -356,16 +353,7 @@ content:
         content:
           -
             type: text
-            text: "S'inscrire jusqu'au "
-          -
-            type: text
-            marks:
-              -
-                type: strike
-            text: '8 décembre 2024'
-          -
-            type: text
-            text: ' pour avoir son nom sur le dossard.'
+            text: "S'inscrire jusqu'au 5 décembre 2025 pour avoir son nom sur le dossard."
   -
     type: bulletList
     content:
@@ -385,27 +373,7 @@ content:
                 text: Classes
               -
                 type: text
-                text: ' : '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: '1'
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                  -
-                    type: superscript
-                text: er
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: ' décembre 2024.'
+                text: ' : 30 novembre 2025.'
       -
         type: listItem
         content:
@@ -422,13 +390,7 @@ content:
                 text: Entreprises
               -
                 type: text
-                text: ' : '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: '3 décembre 2025.'
+                text: ' : 30 novembre 2025.'
   -
     type: heading
     attrs:
@@ -437,10 +399,18 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: strike
         text: 'Inscriptions sur place (le jour-même)'
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: '⚠️ Aucune inscription sur place pour les catégories Titi, Ecoliers C, Ecoliers B et Ecoliers A.'
   -
     type: bulletList
     content:
@@ -454,9 +424,6 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
                 text: "Possible jusqu'à 60 minutes avant le départ, en ligne ou sur place"
       -
         type: listItem
@@ -468,9 +435,6 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
                 text: "Majoration du prix de l'inscription : 10 CHF/adulte et 5 CHF/enfant"
       -
         type: listItem
@@ -482,9 +446,6 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
                 text: 'Aula du Lycée collège de la Planta. (Angle Av. de la Gare/Av. Ritz).'
   -
     type: heading
