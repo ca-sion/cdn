@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1758212564
+updated_at: 1758400443
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -342,7 +342,7 @@ content:
             content:
               -
                 type: text
-                text: '9 décembre 2025'
+                text: '11 décembre 2025'
   -
     type: blockquote
     content:
@@ -353,7 +353,7 @@ content:
         content:
           -
             type: text
-            text: "S'inscrire jusqu'au 5 décembre 2025 pour avoir son nom sur le dossard."
+            text: "S'inscrire jusqu'au 7 décembre 2025 pour avoir son nom sur le dossard."
   -
     type: bulletList
     content:
@@ -399,7 +399,7 @@ content:
     content:
       -
         type: text
-        text: 'Inscriptions sur place (le jour-même)'
+        text: 'Inscriptions le jour-même'
   -
     type: blockquote
     content:
@@ -424,7 +424,7 @@ content:
             content:
               -
                 type: text
-                text: "Possible jusqu'à 60 minutes avant le départ, en ligne ou sur place"
+                text: "Possible jusqu'à 60 minutes avant le départ, en ligne ou sur place dans la limite des places disponibles"
       -
         type: listItem
         content:
@@ -459,6 +459,17 @@ content:
   -
     type: bulletList
     content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: '🆕 Vendredi 12 décembre 2025, de 19h30 à 21h00'
       -
         type: listItem
         content:

@@ -3,7 +3,7 @@ id: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
 origin: b45d1533-44ce-44e9-a141-b3303ae0de5d
 title: 'Anmeldung und Startnummern'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1758213379
+updated_at: 1758400410
 content:
   -
     type: heading
@@ -324,7 +324,7 @@ content:
             content:
               -
                 type: text
-                text: '9. Dezember 2025'
+                text: '11. Dezember 2025'
   -
     type: blockquote
     content:
@@ -335,7 +335,7 @@ content:
         content:
           -
             type: text
-            text: 'Melden Sie sich bis zum 5. Dezember 2025 an, um Ihren Namen auf der Startnummer zu haben.'
+            text: 'Melden Sie sich bis zum 7. Dezember 2025 an, um Ihren Namen auf der Startnummer zu haben.'
   -
     type: bulletList
     content:
@@ -381,7 +381,7 @@ content:
     content:
       -
         type: text
-        text: 'Anmeldung vor Ort (am selben Tag)'
+        text: 'Anmeldung am selben Tag'
   -
     type: blockquote
     content:
@@ -406,7 +406,7 @@ content:
             content:
               -
                 type: text
-                text: 'Bis 60 Minuten vor Abflug möglich, online oder vor Ort'
+                text: 'Bis 60 Minuten vor Abflug möglich, online oder vor Ort solange Plätze verfügbar sind'
       -
         type: listItem
         content:
@@ -441,6 +441,17 @@ content:
   -
     type: bulletList
     content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: '🆕 Freitag, 12. Dezember 2025, von 19:30 bis 21:00 Uhr'
       -
         type: listItem
         content:
