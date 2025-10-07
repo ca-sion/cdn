@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1758213229
+updated_at: 1759817436
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -290,6 +290,26 @@ content:
               -
                 type: text
                 text: "Prix souvenir (médaille) pour chaque élève ayant franchi la ligne d'arrivée."
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: "Prix-souvenir cadeau spécial du\_25"
+              -
+                type: text
+                marks:
+                  -
+                    type: superscript
+                text: e
+              -
+                type: text
+                text: ' "Concours interclasses" remis à chaque élève ayant franchi la ligne d''arrivée.'
   -
     type: heading
     attrs:
@@ -867,10 +887,7 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: '[Pour 2025, à confirmer]'
+        text: 'À partir de 14h sous la tente.'
   -
     type: paragraph
     attrs:
@@ -878,23 +895,7 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: 'À partir de 14h45 sous la tente.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-          -
-            type: strike
-        text: 'La remise des prix aux trois meilleures classes de chaque catégorie aura lieu entre le 16 et le 20 décembre.'
+        text: 'La distribution des prix aux trois meilleures classes de chaque catégorie aura lieu entre le 15 et le 18 décembre.'
   -
     type: heading
     attrs:
@@ -928,10 +929,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: 'le vendredi 29 novembre 2024, à 17h15;'
+                text: 'le vendredi 28 novembre 2025, à 17h15;'
       -
         type: listItem
         content:
@@ -942,10 +940,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: 'et vendredi 6 décembre 2024, à 17h15,'
+                text: 'et vendredi 5 décembre 2025, à 17h15,'
   -
     type: paragraph
     attrs:
@@ -967,7 +962,7 @@ content:
             content:
               -
                 type: text
-                text: 'Le mercredi 11 décembre 2024, à 17h15. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
+                text: 'Le mercredi 12 décembre 2025, à 17h30. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
   -
     type: heading
     attrs:
@@ -988,6 +983,14 @@ content:
       -
         type: text
         text: "Les dossards doivent être retirés à partir de 10h30 par l'accompagnateur responsable de la classe dans la salle de sport du Collège de la Planta, situé à droite en haut de l'avenue de la Gare (Aula de la Planta)."
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "🆕 Les dossards peuvent déjà être\_retirés la veille de la course, le vendredi 12 décembre,\_à partir de 19h30 jusqu'à 21h."
   -
     type: heading
     attrs:

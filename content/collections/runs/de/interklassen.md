@@ -3,7 +3,7 @@ id: 0f0392fc-74e2-4776-88cc-62038498aaf0
 origin: ecad7304-7aa8-4778-97db-8596e9596fee
 title: Interklassen
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1758213244
+updated_at: 1759817558
 content:
   -
     type: heading
@@ -863,10 +863,7 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: '[Für 2025, noch zu bestätigen]'
+        text: 'Ab 14.00 Uhr im Festzelt.'
   -
     type: paragraph
     attrs:
@@ -874,23 +871,7 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: italic
-        text: 'Ab 14.45 Uhr im Festzelt.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-          -
-            type: strike
-        text: 'Die Preisverleihung für die drei besten Klassen pro Kategorie findet zwischen dem 16. und 20. Dezember statt.'
+        text: 'Die Preisverleihung für die drei besten Klassen pro Kategorie findet zwischen dem 15. und 18. Dezember statt.'
   -
     type: heading
     attrs:
@@ -924,10 +905,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: 'am Freitag, den 29. November 2024, um 17:15 Uhr'
+                text: 'am Freitag, den 28. November 2025, um 17:15 Uhr'
       -
         type: listItem
         content:
@@ -938,10 +916,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: 'und Freitag, den 6. Dezember 2024, um 17:15 Uhr'
+                text: 'und Freitag, den 5. Dezember 2025, um 17:15 Uhr'
   -
     type: paragraph
     attrs:
@@ -957,16 +932,7 @@ content:
     content:
       -
         type: text
-        text: 'Am '
-      -
-        type: text
-        marks:
-          -
-            type: strike
-        text: 'Mittwoch, den 11. Dezember 2024, um 17.15 Uhr'
-      -
-        type: text
-        text: '. Treffpunkt vor der „Katharina“ auf der Spitze des Place de la Planta.'
+        text: 'Am Mittwoch, den 12. Dezember 2024, um 17.30 Uhr. Treffpunkt vor der „Katharina“ auf der Spitze des Place de la Planta.'
   -
     type: heading
     attrs:
@@ -1007,6 +973,14 @@ content:
       -
         type: text
         text: 'Die Teilnehmer/innen befinden sich spätestens 10 Minuten vor Beginn ihres Laufs bei der Startlinie in der Rue de Lausanne, in der Nähe des Restaurants „Les Brasseurs“, um sich mit Musik aufzuwärmen.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: '🆕 Die Startnummern können bereits am Vortag des Rennens, Freitag, 12. Dezember, von 19:30 bis 21:00 Uhr abgeholt werden.'
   -
     type: heading
     attrs:
