@@ -9,9 +9,8 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1732545176
+updated_at: 1759907333
 lead: 'Toutes les réponses à vos questions concernant votre implication dans les équipes de la Course de Noël.'
-parent: home
 content:
   -
     type: heading
@@ -322,9 +321,9 @@ content:
           -
             type: link
             attrs:
-              href: 'mailto:benevoles@coursdenoel.ch'
+              href: 'mailto:benevoles@coursedenoel.ch'
               rel: null
               target: null
               title: null
-        text: benevoles@coursdenoel.ch
+        text: benevoles@coursedenoel.ch
 ---
