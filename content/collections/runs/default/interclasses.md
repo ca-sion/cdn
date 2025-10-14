@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1759817436
+updated_at: 1760424379
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -962,7 +962,7 @@ content:
             content:
               -
                 type: text
-                text: 'Le mercredi 12 décembre 2025, à 17h30. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
+                text: 'Le mercredi 10 décembre 2025, à 17h30. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
   -
     type: heading
     attrs:

@@ -3,7 +3,7 @@ id: 0f0392fc-74e2-4776-88cc-62038498aaf0
 origin: ecad7304-7aa8-4778-97db-8596e9596fee
 title: Interklassen
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1759817558
+updated_at: 1760424373
 content:
   -
     type: heading
@@ -926,13 +926,19 @@ content:
         type: text
         text: 'Training auf der Strecke des Weihnachtslaufs'
   -
-    type: paragraph
-    attrs:
-      textAlign: left
+    type: bulletList
     content:
       -
-        type: text
-        text: 'Am Mittwoch, den 12. Dezember 2024, um 17.30 Uhr. Treffpunkt vor der „Katharina“ auf der Spitze des Place de la Planta.'
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Am Mittwoch, den 10. Dezember 2024, um 17.30 Uhr. Treffpunkt vor der „Katharina“ auf der Spitze des Place de la Planta.'
   -
     type: heading
     attrs:
