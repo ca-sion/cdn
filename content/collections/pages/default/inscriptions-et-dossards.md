@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1758400443
+updated_at: 1760533485
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -58,7 +58,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2024-sion'
+                      href: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2025-sion'
                       rel: null
                       target: _blank
                       title: null

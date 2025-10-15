@@ -3,7 +3,7 @@ id: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
 origin: b45d1533-44ce-44e9-a141-b3303ae0de5d
 title: 'Anmeldung und Startnummern'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1758400410
+updated_at: 1760533493
 content:
   -
     type: heading
@@ -40,7 +40,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2024-sion'
+                      href: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2025-sion'
                       rel: null
                       target: _blank
                       title: null
