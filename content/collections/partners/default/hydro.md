@@ -4,9 +4,9 @@ blueprint: partner
 title: Hydro
 logo: partners/hydro-couleur-logo.png
 link: 'https://www.hydro.ch/'
-highlighted: true
+highlighted: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711966676
+updated_at: 1760607258
 partners_categories:
   - sponsor
 ---

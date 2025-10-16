@@ -4,7 +4,7 @@ blueprint: partner
 title: 'Grichting & Valterio'
 logo: partners/grichting_valterio-logo.png
 link: 'https://www.grichting-valterio.ch/fr/'
-highlighted: true
+highlighted: false
 partners_categories:
   - sponsor
 use_meta_keywords: false
@@ -14,5 +14,5 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1716389371
+updated_at: 1760607260
 ---

@@ -1,5 +1,6 @@
 ---
 id: 3a6ac926-10b9-4879-a360-824076e73e79
+published: false
 blueprint: partner
 title: Rigips
 logo: partners/rigips-logo.jpg

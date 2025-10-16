@@ -5,9 +5,9 @@ blueprint: partner
 title: SportX
 logo: partners/sportx-logo.png
 link: 'https://www.sportx.ch'
-highlighted: true
+highlighted: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1711966693
+updated_at: 1760607034
 partners_categories:
   - sponsor
 ---
