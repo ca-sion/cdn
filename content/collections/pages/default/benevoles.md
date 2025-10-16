@@ -9,7 +9,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1759907333
+updated_at: 1760604093
 lead: 'Toutes les réponses à vos questions concernant votre implication dans les équipes de la Course de Noël.'
 content:
   -
@@ -40,7 +40,7 @@ content:
           -
             type: link
             attrs:
-              href: 'https://docs.google.com/forms/d/e/1FAIpQLSdGt3V6p2bTIJBW4CfBH3nG4sdEoUYRaetO1T5U_gB6HM3Zvw/viewform?usp=send_form'
+              href: 'https://docs.google.com/forms/d/e/1FAIpQLSecnK0R8kG6NbbcRG5KsDW5JMjaZExEGP7dPgOgsUlTeur1UA/viewform'
               rel: null
               target: _blank
               title: null
@@ -101,7 +101,7 @@ content:
           -
             type: link
             attrs:
-              href: 'https://docs.google.com/forms/d/e/1FAIpQLSdGt3V6p2bTIJBW4CfBH3nG4sdEoUYRaetO1T5U_gB6HM3Zvw/viewform?usp=send_form'
+              href: 'https://docs.google.com/forms/d/e/1FAIpQLSecnK0R8kG6NbbcRG5KsDW5JMjaZExEGP7dPgOgsUlTeur1UA/viewform'
               rel: null
               target: null
               title: null
