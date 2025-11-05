@@ -3,7 +3,7 @@ id: 35845e58-4ae2-47f7-b7e8-4c44feabb1ac
 blueprint: page
 title: 'La Course de Noël'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1742483045
+updated_at: 1762354544
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -33,7 +33,7 @@ content:
             content:
               -
                 type: text
-                text: 'Dominique Solioz : Président et Sponsoring'
+                text: 'Dominique Solioz : Président, Sponsoring et Finance'
       -
         type: listItem
         content:
@@ -55,18 +55,7 @@ content:
             content:
               -
                 type: text
-                text: 'Raymond Buffet : Finances'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Vacant : Médias et communication'
+                text: 'Allan Bonjour : Course Elite'
       -
         type: listItem
         content:
@@ -88,7 +77,7 @@ content:
             content:
               -
                 type: text
-                text: 'Allan Bonjour : Course Elite'
+                text: 'Dève Roux : Cantine et tente'
       -
         type: listItem
         content:
@@ -132,17 +121,6 @@ content:
             content:
               -
                 type: text
-                text: 'François Bornet : Dossards'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
                 text: 'Jacques Magnin : Responsable sécurité'
       -
         type: listItem
@@ -176,17 +154,6 @@ content:
             content:
               -
                 type: text
-                text: 'Dève Roux : Cantine et tente'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
                 text: 'Olivier Ménétrey : Technique'
       -
         type: listItem
@@ -198,7 +165,7 @@ content:
             content:
               -
                 type: text
-                text: 'Valia Humbert-Delaloye : Inscriptions'
+                text: 'Valia Humbert-Delaloye : Dossards et Inscriptions'
   -
     type: heading
     attrs:
