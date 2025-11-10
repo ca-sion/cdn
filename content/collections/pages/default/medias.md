@@ -9,7 +9,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1757330177
+updated_at: 1762777365
 content:
   -
     type: heading
@@ -83,7 +83,12 @@ content:
         type: text
         marks:
           -
-            type: strike
+            type: link
+            attrs:
+              href: 'statamic://asset::assets::documents/2025-affiche.pdf'
+              rel: null
+              target: _blank
+              title: null
         text: PDF
   -
     type: paragraph
@@ -97,7 +102,12 @@ content:
         type: text
         marks:
           -
-            type: strike
+            type: link
+            attrs:
+              href: 'statamic://asset::assets::documents/2025-flyer-a5.pdf'
+              rel: null
+              target: _blank
+              title: null
         text: PDF
   -
     type: paragraph
