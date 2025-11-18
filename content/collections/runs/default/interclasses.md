@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1762767733
+updated_at: 1763496774
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -161,6 +161,14 @@ content:
           -
             type: text
             text: '⚠️ Places limitées, les inscriptions se font selon le principe du premier arrivé, premier servi.'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: '⚠️ 6H complet'
   -
     type: paragraph
     attrs:
