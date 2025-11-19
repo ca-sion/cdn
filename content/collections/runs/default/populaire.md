@@ -4,7 +4,7 @@ blueprint: run
 title: Populaire
 icon: 'noto:clapping-hands'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1733832314
+updated_at: 1763595296
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -35,5 +35,5 @@ content:
     content:
       -
         type: text
-        text: 'Règlement : Pas de classement au temps, pas de podium, classement alphabétique. Participation souhaitée dès 16 ans.'
+        text: 'Règlement : Pas de classement au temps, pas de podium, classement alphabétique. Participation dès 8 ans.'
 ---
