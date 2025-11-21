@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1763496737
+updated_at: 1763734405
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -155,7 +155,7 @@ content:
                 text: ici
               -
                 type: text
-                text: '. (⚠️ 6H complet)'
+                text: '. (⚠️ 6H, 4H complet)'
       -
         type: listItem
         content:

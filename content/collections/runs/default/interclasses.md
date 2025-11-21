@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1763496774
+updated_at: 1763734351
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -168,7 +168,7 @@ content:
         content:
           -
             type: text
-            text: '⚠️ 6H complet'
+            text: '⚠️ 6H, 4H complet'
   -
     type: paragraph
     attrs:
