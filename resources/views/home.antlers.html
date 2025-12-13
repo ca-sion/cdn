@@ -60,6 +60,11 @@
         class="absolute bottom-auto left-auto right-0 top-0 -z-10 inline-block max-[479px]:hidden" />
 </section>
 
+{{ if race:live_link }}
+<section class="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
+    <iframe src="{{ race:live_link }}" width="100%" style="aspect-ratio: 16/9; min-height: 340px;" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</section>
+{{ /if }}
 
 <section>
     <!-- Container -->
