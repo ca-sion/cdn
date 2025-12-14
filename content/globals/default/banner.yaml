@@ -1,2 +1,2 @@
-has_banner: false
-text: '<p>📷 <a href="https://photos.casion.ch/index.php?/category/9"><u>Photos de la course</u></a></p>'
+has_banner: true
+text: '<p>📦 <a href="statamic://entry::c660ef34-6294-4069-9b31-b597bf0e4d37">Objets perdus</a></p>'

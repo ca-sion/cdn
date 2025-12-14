@@ -4,7 +4,7 @@ blueprint: page
 title: Résultats
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1743748615
+updated_at: 1765698110
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -17,6 +17,19 @@ content:
     attrs:
       textAlign: left
     content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://datasport.com/live/ranking/?racenr=27168'
+              rel: null
+              target: _blank
+              title: null
+        text: 'Classement 2025'
+      -
+        type: hardBreak
       -
         type: text
         marks:
