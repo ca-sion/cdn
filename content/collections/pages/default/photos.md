@@ -10,7 +10,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1766155586
+updated_at: 1766582088
 content:
   -
     type: heading
@@ -37,6 +37,39 @@ content:
               target: _blank
               title: null
         text: 'Photos 2025'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Vidéos 2025 : '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.youtube.com/watch?v=d7O1dFjMsRk'
+              rel: null
+              target: _blank
+              title: null
+        text: 'élite hommes'
+      -
+        type: text
+        text: ' & '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.youtube.com/watch?v=UDcNpyqfjak'
+              rel: null
+              target: _blank
+              title: null
+        text: femmes
   -
     type: paragraph
     attrs:
