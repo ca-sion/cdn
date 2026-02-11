@@ -4,7 +4,7 @@ origin: 3375831e-4769-4795-a956-ab5761ebf784
 title: 'Challenge entreprises'
 icon: 'noto:running-shirt'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1758213051
+updated_at: 1770803233
 content:
   -
     type: heading
@@ -169,6 +169,8 @@ content:
                 marks:
                   -
                     type: bold
+                  -
+                    type: strike
                 text: '30. November 2025'
       -
         type: listItem
@@ -275,6 +277,8 @@ content:
                 marks:
                   -
                     type: bold
+                  -
+                    type: strike
                 text: '30. November 2025'
       -
         type: listItem
@@ -392,7 +396,15 @@ content:
                 marks:
                   -
                     type: bold
-                text: 'Bestellfrist: 7. November 2025'
+                text: 'Bestellfrist: '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: strike
+                text: '7. November 2025'
       -
         type: listItem
         content:

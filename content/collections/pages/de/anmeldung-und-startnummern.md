@@ -3,7 +3,7 @@ id: e7b3cf06-559a-43a3-9b63-0e42e670e5c1
 origin: b45d1533-44ce-44e9-a141-b3303ae0de5d
 title: 'Anmeldung und Startnummern'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1760533493
+updated_at: 1770803586
 content:
   -
     type: heading
@@ -451,7 +451,7 @@ content:
             content:
               -
                 type: text
-                text: '🆕 Freitag, 12. Dezember 2025, von 19:30 bis 21:00 Uhr'
+                text: '🆕 Freitag, 11. Dezember 2026, von 19:30 bis 21:00 Uhr'
       -
         type: listItem
         content:
@@ -462,7 +462,7 @@ content:
             content:
               -
                 type: text
-                text: 'Samstag, 13. Dezember 2024, ab 9.30 Uhr.'
+                text: 'Samstag, 12. Dezember 2026, ab 9.30 Uhr.'
       -
         type: listItem
         content:

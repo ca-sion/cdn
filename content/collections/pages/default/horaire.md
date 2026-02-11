@@ -4,7 +4,7 @@ blueprint: page
 title: 'Horaire et programme'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1757330057
+updated_at: 1770803475
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -31,6 +31,8 @@ content:
               rel: null
               target: null
               title: null
+          -
+            type: strike
         text: 'Course de Noël 2025'
   -
     type: paragraph

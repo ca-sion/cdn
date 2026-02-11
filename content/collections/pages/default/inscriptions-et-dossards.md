@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1764581452
+updated_at: 1770803571
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -342,6 +342,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: '11 décembre 2025'
   -
     type: blockquote
@@ -353,7 +356,16 @@ content:
         content:
           -
             type: text
-            text: "S'inscrire jusqu'au 7 décembre 2025 pour avoir son nom sur le dossard."
+            text: "S'inscrire jusqu'au "
+          -
+            type: text
+            marks:
+              -
+                type: strike
+            text: '7 décembre 2025'
+          -
+            type: text
+            text: ' pour avoir son nom sur le dossard.'
   -
     type: bulletList
     content:
@@ -373,7 +385,13 @@ content:
                 text: Classes
               -
                 type: text
-                text: ' : 30 novembre 2025.'
+                text: ' : '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: '30 novembre 2025.'
       -
         type: listItem
         content:
@@ -390,7 +408,13 @@ content:
                 text: Entreprises
               -
                 type: text
-                text: ' : 30 novembre 2025.'
+                text: ' : '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: '30 novembre 2025.'
   -
     type: heading
     attrs:
@@ -469,7 +493,7 @@ content:
             content:
               -
                 type: text
-                text: '🆕 Vendredi 12 décembre 2025, de 19h30 à 21h00'
+                text: '🆕 Vendredi 11 décembre 2026, de 19h30 à 21h00'
       -
         type: listItem
         content:
@@ -480,7 +504,7 @@ content:
             content:
               -
                 type: text
-                text: 'Samedi 13 décembre 2025, dès 9h30.'
+                text: 'Samedi 12 décembre 2026, dès 9h30.'
       -
         type: listItem
         content:

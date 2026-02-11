@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1764581428
+updated_at: 1770803269
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -179,7 +179,15 @@ content:
         marks:
           -
             type: bold
-        text: 'Délai: 30 novembre 2025'
+        text: 'Délai: '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: strike
+        text: '30 novembre 2025'
       -
         type: hardBreak
       -
@@ -937,7 +945,13 @@ content:
             content:
               -
                 type: text
-                text: 'le vendredi 28 novembre 2025, à 17h15;'
+                text: 'le '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: 'vendredi 28 novembre 2025, à 17h15;'
       -
         type: listItem
         content:
@@ -948,6 +962,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: 'et vendredi 5 décembre 2025, à 17h15,'
   -
     type: paragraph
@@ -970,7 +987,16 @@ content:
             content:
               -
                 type: text
-                text: 'Le vendredi 12 décembre 2025, à 17h30. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
+                text: 'Le '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: 'vendredi 12 décembre 2025, à 17h30'
+              -
+                type: text
+                text: '. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
   -
     type: heading
     attrs:
@@ -998,7 +1024,16 @@ content:
     content:
       -
         type: text
-        text: "🆕 Les dossards peuvent déjà être\_retirés la veille de la course, le vendredi 12 décembre,\_à partir de 19h30 jusqu'à 21h."
+        text: "🆕 Les dossards peuvent déjà être\_retirés la veille de la course, le "
+      -
+        type: text
+        marks:
+          -
+            type: strike
+        text: 'vendredi 12 décembre'
+      -
+        type: text
+        text: ",\_à partir de 19h30 jusqu'à 21h."
   -
     type: heading
     attrs:

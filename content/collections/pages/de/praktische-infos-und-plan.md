@@ -3,7 +3,7 @@ id: 3048edaa-77a3-422c-9034-9aef03634de1
 origin: 298d23bc-4508-4a3a-b34d-575dda28e0d0
 title: 'Praktische Infos und Plan'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1752571744
+updated_at: 1770803654
 content:
   -
     type: paragraph
@@ -23,7 +23,7 @@ content:
     content:
       -
         type: text
-        text: 'Samstag, 14. Dezember 2024, in den Straßen der Altstadt von Sitten und auf der Place de la Planta'
+        text: 'Samstag, 12. Dezember 2026, in den Straßen der Altstadt von Sitten und auf der Place de la Planta'
   -
     type: paragraph
     attrs:
@@ -207,7 +207,16 @@ content:
             type: bold
       -
         type: text
-        text: 'Dieser Lauf wird für die Verleihung der Sittener Sportmedaille 2024 berücksichtigt. Der Aufkleber „Walking“ oder „Lauf“ ist bei der Ausgabe der Startnummer zu verlangen.'
+        text: 'Dieser Lauf wird für die Verleihung der '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Sittener Sportmedaille'
+      -
+        type: text
+        text: ' berücksichtigt. Der Aufkleber „Walking“ oder „Lauf“ ist bei der Ausgabe der Startnummer zu verlangen.'
   -
     type: paragraph
     attrs:

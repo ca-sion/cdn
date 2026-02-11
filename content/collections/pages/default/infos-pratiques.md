@@ -4,7 +4,7 @@ blueprint: page
 title: 'Infos pratiques et plan'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1755170696
+updated_at: 1770803632
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -31,7 +31,7 @@ content:
     content:
       -
         type: text
-        text: 'Samedi 13 décembre 2025, dans les rues de la Vieille ville de Sion et sur la Place de la Planta'
+        text: 'Samedi 12 décembre 2026, dans les rues de la Vieille ville de Sion et sur la Place de la Planta'
   -
     type: paragraph
     attrs:
@@ -215,7 +215,16 @@ content:
             type: bold
       -
         type: text
-        text: 'Cette course est prise en compte pour l’attribution de la Médaille sportive sédunoise 2024. L''autocollant "Walking" ou "Course à pied" est à demander lors de la remise du dossard.'
+        text: 'Cette course est prise en compte pour l’attribution de la '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Médaille sportive sédunoise'
+      -
+        type: text
+        text: '. L''autocollant "Walking" ou "Course à pied" est à demander lors de la remise du dossard.'
   -
     type: paragraph
     attrs:
