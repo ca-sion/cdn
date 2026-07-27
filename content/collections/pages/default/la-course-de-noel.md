@@ -3,7 +3,7 @@ id: 35845e58-4ae2-47f7-b7e8-4c44feabb1ac
 blueprint: page
 title: 'La Course de Noël'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1762354544
+updated_at: 1785143928
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -33,7 +33,7 @@ content:
             content:
               -
                 type: text
-                text: 'Dominique Solioz : Président, Sponsoring et Finance'
+                text: 'Benoît Torrent : Co-Président'
       -
         type: listItem
         content:
@@ -44,7 +44,52 @@ content:
             content:
               -
                 type: text
-                text: 'Esther Debons : Vice-présidente et Présidente du CA Sion'
+                text: 'Esther Debons : Co-Présidente et Présidente du CA Sion'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Joël Gaillard : Logistique et infrastructures'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Pierre-Michel Oggier : Trail'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Michael Ravedoni : Administration'
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        text: Commissions
+  -
+    type: bulletList
+    content:
       -
         type: listItem
         content:
@@ -88,29 +133,7 @@ content:
             content:
               -
                 type: text
-                text: 'Donovan Hatt : Distribution des prix'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Emilie Savoie : Tente VIP'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Emmanuel Bonvin : Parcours, départ et arrivée'
+                text: 'Emilie Savoy : Tente VIP'
       -
         type: listItem
         content:
@@ -122,39 +145,6 @@ content:
               -
                 type: text
                 text: 'Jacques Magnin : Responsable sécurité'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Joël Gaillard : Logistique et infrastructures'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Michael Ravedoni : Administration'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Olivier Ménétrey : Technique'
       -
         type: listItem
         content:
