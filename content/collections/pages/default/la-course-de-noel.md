@@ -3,7 +3,7 @@ id: 35845e58-4ae2-47f7-b7e8-4c44feabb1ac
 blueprint: page
 title: 'La Course de Noël'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1785143928
+updated_at: 1786713622
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -164,7 +164,7 @@ content:
     content:
       -
         type: text
-        text: 'L’historique de la première course en ville de Suiss'
+        text: 'L’historique de la première course en ville de Suisse'
   -
     type: paragraph
     attrs:
@@ -197,5 +197,5 @@ content:
     content:
       -
         type: text
-        text: "Après de nombreuses années d’engagement et de soutien, le sponsoring principal avec la famille Titzé a pris fin.\_La Course de Noël de Sion peut depuis 2020 compter sur le solide soutien de Migros, sponsor principal des courses à pied les plus populaires de Suisse, telles que les 20km de Lausanne, Morat-Fribourg ou encore la Course de l’Escalade de Genève.\_Il s’agit du premier sponsoring en Valais de la part de la Coopérative Suisse, qui permettra à la course d’asseoir sa renommée au niveau national et de perfectionner la qualité de son organisation, notamment en offrant la gratuité aux moins de 16 ans et en proposant un clip finisher à chaque participant."
+        text: "Après de nombreuses années d’engagement et de soutien, le sponsoring principal avec la famille Titzé a pris fin.\_La Course de Noël de Sion peut depuis 2020 compter sur le solide soutien de Migros, sponsor principal des courses à pied les plus populaires de Suisse, telles que les 20km de Lausanne, Morat-Fribourg ou encore la Course de l’Escalade de Genève.\_Il s’agit du premier sponsoring en Valais de la part de la Coopérative Suisse, qui permettra à la course d’asseoir sa renommée au niveau national et de perfectionner la qualité de son organisation en proposant un clip finisher à chaque participant."
 ---
