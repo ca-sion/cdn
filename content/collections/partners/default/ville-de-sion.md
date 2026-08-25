@@ -3,9 +3,9 @@ id: 139d048e-8295-4240-be85-5d0b4b37711c
 blueprint: partner
 title: 'Ville de Sion'
 link: 'https://sion.ch'
-highlighted: true
+highlighted: false
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1716388896
+updated_at: 1787668831
 logo: partners/ville_sion_capital-logo.png
 partners_categories:
   - institutional
