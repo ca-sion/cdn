@@ -144,17 +144,6 @@ content:
             content:
               -
                 type: text
-                text: 'Jacques Magnin : Responsable sécurité'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
                 text: 'Valia Humbert-Delaloye : Dossards et Inscriptions'
   -
     type: heading
