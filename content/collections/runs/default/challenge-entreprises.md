@@ -4,7 +4,7 @@ blueprint: run
 title: 'Challenge entreprises'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1770803216
+updated_at: 1789428507
 icon: 'noto:running-shirt'
 use_meta_keywords: false
 no_index_page: false
@@ -83,7 +83,16 @@ content:
         text: 't-shirts personnalisables de Texner'
       -
         type: text
-        text: " pour votre team jusqu'au 8 novembre ! Plus d'information en bas de page."
+        text: " pour votre team jusqu'au "
+      -
+        type: text
+        marks:
+          -
+            type: strike
+        text: '7 novembre'
+      -
+        type: text
+        text: " ! Plus d'information en bas de page."
   -
     type: heading
     attrs:
@@ -176,9 +185,7 @@ content:
                 marks:
                   -
                     type: bold
-                  -
-                    type: strike
-                text: '30 novembre 2025'
+                text: '22 novembre 2026'
       -
         type: listItem
         content:
@@ -239,32 +246,21 @@ content:
             content:
               -
                 type: text
-                text: 'Comment : En remplissant '
+                text: 'Comment : à l’aide de '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscriptions-entreprises.xlsx'
+                      href: 'https://manager.coursedenoel.ch/registrations/company'
                       rel: null
-                      target: null
+                      target: _blank
                       title: null
-                text: 'ce fichier Excel'
+                text: 'ce formulaire'
               -
                 type: text
-                text: "\_(onglet A et B) et en le retournant par email à\_"
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: inscriptions@coursedenoel.ch
+                text: .
       -
         type: listItem
         content:
@@ -281,9 +277,7 @@ content:
                 marks:
                   -
                     type: bold
-                  -
-                    type: strike
-                text: '30 novembre 2025'
+                text: '22 novembre 2026'
       -
         type: listItem
         content:
@@ -306,42 +300,6 @@ content:
               -
                 type: text
                 text: 'Paiement : Facturé après réception du fichier ou après la course'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Condition :'
-          -
-            type: bulletList
-            content:
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    attrs:
-                      textAlign: left
-                    content:
-                      -
-                        type: text
-                        text: '20 inscriptions minimum (onglet B)'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    attrs:
-                      textAlign: left
-                    content:
-                      -
-                        type: text
-                        text: "Fournir l'adresse de facturation (onglet A)"
   -
     type: blockquote
     content:
@@ -352,7 +310,7 @@ content:
         content:
           -
             type: text
-            text: "Pour les groupes qui s'inscrivent avec un fichier, les inscriptions ne seront visibles sur le site de Datasport (listes de départ) que durant la semaine de la course. Nous vous prions de vérifier en début de semaine si les inscriptions sont bien correctes et de signaler à : "
+            text: "Pour les groupes qui s'inscrivent avec un formulaire, les inscriptions ne seront visibles sur le site de Datasport (listes de départ) que durant la semaine de la course. Nous vous prions de vérifier en début de semaine si les inscriptions sont bien correctes et de signaler à : "
           -
             type: text
             marks:
@@ -427,6 +385,8 @@ content:
                       rel: null
                       target: _blank
                       title: null
+                  -
+                    type: strike
                 text: 'Visuel et bon de commande'
       -
         type: listItem

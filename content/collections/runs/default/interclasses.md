@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1789426570
+updated_at: 1789428684
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -161,14 +161,6 @@ content:
           -
             type: text
             text: '⚠️ Places limitées, les inscriptions se font selon le principe du premier arrivé, premier servi.'
-      -
-        type: paragraph
-        attrs:
-          textAlign: left
-        content:
-          -
-            type: text
-            text: '⚠️ 7H, 6H, 5H, 4H complet'
   -
     type: paragraph
     attrs:
@@ -179,15 +171,7 @@ content:
         marks:
           -
             type: bold
-        text: 'Délai: '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: strike
-        text: '30 novembre 2025'
+        text: 'Délai: 22 novembre 2026'
       -
         type: hardBreak
       -
@@ -197,78 +181,21 @@ content:
         type: hardBreak
       -
         type: text
-        text: "L'inscription des élèves doit obligatoirement être effectuée par les enseignants titulaires, qui doivent suivre les étapes suivantes :"
-  -
-    type: orderedList
-    attrs:
-      start: 1
-    content:
+        text: "L'inscription des élèves doit obligatoirement être effectuée par les enseignants titulaires, qui doivent suivre les instructions présentes dans "
       -
-        type: listItem
-        content:
+        type: text
+        marks:
           -
-            type: paragraph
+            type: link
             attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Télécharger le formulaire'
-              -
-                type: text
-                text: ' : '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'statamic://entry::89aed45f-a985-42ff-b589-48caba0e54be'
-                      rel: null
-                      target: null
-                      title: null
-                text: Formulaire
+              href: 'https://manager.coursedenoel.ch/registrations/school'
+              rel: null
+              target: _blank
+              title: null
+        text: "ce formulaire d'inscription"
       -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Inscrivez les élèves et remplissez toutes les rubriques'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Envoyez le fichier à '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                  -
-                    type: bold
-                text: inscriptions@coursedenoel.ch
+        type: text
+        text: .
   -
     type: heading
     attrs:
@@ -1009,7 +936,7 @@ content:
         marks:
           -
             type: strike
-        text: "Les dossards peuvent déjà être\_retirés la veille de la course, le vendredi 12 décembre,\_à partir de 19h30 jusqu'à 21h."
+        text: "Les dossards peuvent déjà être\_retirés la veille de la course, le vendredi 11 décembre,\_à partir de 19h30 jusqu'à 21h."
   -
     type: heading
     attrs:

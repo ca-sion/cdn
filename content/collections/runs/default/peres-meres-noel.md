@@ -4,7 +4,7 @@ blueprint: run
 title: 'Pères et Mères Noël'
 icon: 'fxemoji:fatherchristmas'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1733832021
+updated_at: 1789428722
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -35,5 +35,5 @@ content:
     content:
       -
         type: text
-        text: "Règlement : Pas de classement au temps, classement sur l'originalité du costume (thème de Noël). Podium."
+        text: "Règlement : Pas de classement au temps, classement sur l'originalité du costume (thème de Noël)."
 ---

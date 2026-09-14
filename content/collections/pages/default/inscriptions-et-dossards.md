@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1789426841
+updated_at: 1789428914
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -58,7 +58,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2025-sion'
+                      href: 'https://onreg.datasport.com/fr/course-de-noel-et-trail-des-chateaux-2026-sion'
                       rel: null
                       target: _blank
                       title: null
@@ -89,25 +89,11 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscriptions-groupes.xlsx'
+                      href: 'https://manager.coursedenoel.ch/registrations/group'
                       rel: null
-                      target: null
+                      target: _blank
                       title: null
-                text: 'ce fichier'
-              -
-                type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
+                text: 'ce formulaire'
               -
                 type: text
                 text: .
@@ -127,35 +113,21 @@ content:
                 text: Classes
               -
                 type: text
-                text: ' : à l’aide de '
+                text: " : à l'aide de "
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscription-interclasse.xlsx'
+                      href: 'https://manager.coursedenoel.ch/registrations/school'
                       rel: null
-                      target: null
+                      target: _blank
                       title: null
-                text: 'ce fichier'
+                text: 'ce formulaire'
               -
                 type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
-              -
-                type: text
-                text: '. (⚠️ 7H, 6H, 5H, 4H complet)'
+                text: .
       -
         type: listItem
         content:
@@ -179,25 +151,11 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscriptions-entreprises.xlsx'
+                      href: 'https://manager.coursedenoel.ch/registrations/company'
                       rel: null
-                      target: null
+                      target: _blank
                       title: null
-                text: 'ce fichier'
-              -
-                type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
+                text: 'ce formulaire'
               -
                 type: text
                 text: .
@@ -224,25 +182,11 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-inscriptions-groupes.xlsx'
+                      href: 'https://manager.coursedenoel.ch/registrations/group'
                       rel: null
-                      target: null
+                      target: _blank
                       title: null
-                text: 'ce fichier'
-              -
-                type: text
-                text: ' à envoyer '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'mailto:inscriptions@coursedenoel.ch'
-                      rel: null
-                      target: null
-                      title: null
-                text: ici
+                text: 'ce formulaire'
               -
                 type: text
                 text: .
@@ -253,7 +197,7 @@ content:
     content:
       -
         type: text
-        text: "Pour les groupes qui s'inscrivent avec un fichier, les inscriptions ne seront visibles sur le site de Datasport (listes de départ) que durant la semaine de la course. Nous vous prions de vérifier en début de semaine si les inscriptions sont bien correctes et de signaler à : "
+        text: "Pour les groupes qui s'inscrivent avec les formulaires, les inscriptions ne seront visibles sur le site de Datasport (listes de départ) que durant la semaine de la course. Nous vous prions de vérifier en début de semaine si les inscriptions sont bien correctes et de signaler à : "
       -
         type: text
         marks:
@@ -342,10 +286,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: '11 décembre 2025'
+                text: '12 décembre 2026'
   -
     type: blockquote
     content:
@@ -356,16 +297,7 @@ content:
         content:
           -
             type: text
-            text: "S'inscrire jusqu'au "
-          -
-            type: text
-            marks:
-              -
-                type: strike
-            text: '7 décembre 2025'
-          -
-            type: text
-            text: ' pour avoir son nom sur le dossard.'
+            text: "S'inscrire jusqu'au 29 novembre 2026 pour avoir son nom sur le dossard."
   -
     type: bulletList
     content:
@@ -385,13 +317,7 @@ content:
                 text: Classes
               -
                 type: text
-                text: ' : '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: '30 novembre 2025.'
+                text: ' : 22 novembre 2026.'
       -
         type: listItem
         content:
@@ -408,13 +334,7 @@ content:
                 text: Entreprises
               -
                 type: text
-                text: ' : '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: '30 novembre 2025.'
+                text: ' : 22 novembre 2026.'
   -
     type: heading
     attrs:
@@ -424,23 +344,6 @@ content:
       -
         type: text
         text: 'Inscriptions le jour-même'
-  -
-    type: blockquote
-    content:
-      -
-        type: paragraph
-        attrs:
-          textAlign: left
-        content:
-          -
-            type: text
-            text: '⚠️ '
-          -
-            type: text
-            marks:
-              -
-                type: strike
-            text: 'Aucune inscription sur place pour les catégories Titi, Ecoliers C, Ecoliers B et Ecoliers A.'
   -
     type: bulletList
     content:
@@ -499,13 +402,16 @@ content:
             content:
               -
                 type: text
-                text: '🆕 '
+                text: 'Vendredi 11 décembre 2026, de '
               -
                 type: text
                 marks:
                   -
                     type: strike
-                text: 'Vendredi 11 décembre 2026, de 19h30 à 21h00'
+                text: '19h30 à 21h00'
+              -
+                type: text
+                text: ' (à préciser)'
       -
         type: listItem
         content:
@@ -516,10 +422,16 @@ content:
             content:
               -
                 type: text
+                text: 'Samedi 12 décembre 2026, '
+              -
+                type: text
                 marks:
                   -
                     type: strike
-                text: 'Samedi 12 décembre 2026, dès 9h30.'
+                text: 'dès 9h30 '
+              -
+                type: text
+                text: '(à préciser).'
       -
         type: listItem
         content:
