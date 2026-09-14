@@ -4,7 +4,7 @@ blueprint: page
 title: 'Infos pratiques et plan'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1770803632
+updated_at: 1789426320
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -128,7 +128,7 @@ content:
             content:
               -
                 type: text
-                text: '14h00 : Tente de Fête, Place de la Planta'
+                text: '13h30 : Tente de Fête, Place de la Planta'
       -
         type: listItem
         content:
@@ -139,7 +139,7 @@ content:
             content:
               -
                 type: text
-                text: "19h00:\_ Tente de Fête, Place de la Planta"
+                text: "19h15:\_ Tente de Fête, Place de la Planta"
   -
     type: paragraph
     attrs:
@@ -158,7 +158,7 @@ content:
             type: bold
       -
         type: text
-        text: "Chaque athlète recevra un prix-souvenir à l'arrivée. Les prix non-récupérés lors de la distribution des prix ne sont pas envoyés."
+        text: "Chaque participant·e recevra un prix-souvenir à l'arrivée. Les prix non-récupérés lors de la distribution des prix ne sont pas envoyés."
   -
     type: paragraph
     attrs:

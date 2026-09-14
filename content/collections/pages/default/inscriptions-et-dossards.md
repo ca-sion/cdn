@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1770803571
+updated_at: 1789426841
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -434,7 +434,13 @@ content:
         content:
           -
             type: text
-            text: '⚠️ Aucune inscription sur place pour les catégories Titi, Ecoliers C, Ecoliers B et Ecoliers A.'
+            text: '⚠️ '
+          -
+            type: text
+            marks:
+              -
+                type: strike
+            text: 'Aucune inscription sur place pour les catégories Titi, Ecoliers C, Ecoliers B et Ecoliers A.'
   -
     type: bulletList
     content:
@@ -493,7 +499,13 @@ content:
             content:
               -
                 type: text
-                text: '🆕 Vendredi 11 décembre 2026, de 19h30 à 21h00'
+                text: '🆕 '
+              -
+                type: text
+                marks:
+                  -
+                    type: strike
+                text: 'Vendredi 11 décembre 2026, de 19h30 à 21h00'
       -
         type: listItem
         content:
@@ -504,6 +516,9 @@ content:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: strike
                 text: 'Samedi 12 décembre 2026, dès 9h30.'
       -
         type: listItem

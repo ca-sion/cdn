@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1770803269
+updated_at: 1789426570
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -121,7 +121,7 @@ content:
             content:
               -
                 type: text
-                text: '10 CHF par élève (frais pour le dossard, le chronométrage et le prix souvenir). Le paiement doit être effectué avant le 01.12.2025.'
+                text: '10 CHF par élève (frais pour le dossard, le chronométrage et le prix souvenir). Le paiement doit être effectué avant le 01.12.2026.'
       -
         type: listItem
         content:
@@ -496,7 +496,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 12h57
+                    text: 12h05
       -
         type: tableRow
         content:
@@ -574,7 +574,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 13h05
+                    text: 12h15
       -
         type: tableRow
         content:
@@ -652,7 +652,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 13h13
+                    text: 12h25
       -
         type: tableRow
         content:
@@ -730,7 +730,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 13h21
+                    text: 12h35
       -
         type: tableRow
         content:
@@ -808,7 +808,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 13h28
+                    text: 12h45
       -
         type: tableRow
         content:
@@ -886,7 +886,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 13h35
+                    text: 12h55
   -
     type: heading
     attrs:
@@ -903,7 +903,7 @@ content:
     content:
       -
         type: text
-        text: 'À partir de 14h sous la tente.'
+        text: 'À partir de 13h30 sous la tente.'
   -
     type: paragraph
     attrs:
@@ -911,7 +911,7 @@ content:
     content:
       -
         type: text
-        text: 'La distribution des prix aux trois meilleures classes de chaque catégorie aura lieu entre le 15 et le 18 décembre.'
+        text: 'La distribution des prix aux trois meilleures classes de chaque catégorie aura lieu entre le 14 et le 18 décembre.'
   -
     type: heading
     attrs:
@@ -945,13 +945,7 @@ content:
             content:
               -
                 type: text
-                text: 'le '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: 'vendredi 28 novembre 2025, à 17h15;'
+                text: 'le vendredi 27 novembre 2026, à 17h15;'
       -
         type: listItem
         content:
@@ -962,10 +956,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: 'et vendredi 5 décembre 2025, à 17h15,'
+                text: 'et vendredi 4 décembre 2026, à 17h15,'
   -
     type: paragraph
     attrs:
@@ -987,16 +978,7 @@ content:
             content:
               -
                 type: text
-                text: 'Le '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: 'vendredi 12 décembre 2025, à 17h30'
-              -
-                type: text
-                text: '. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
+                text: 'Le vendredi 11 décembre 2026, à 17h30. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
   -
     type: heading
     attrs:
@@ -1024,16 +1006,10 @@ content:
     content:
       -
         type: text
-        text: "🆕 Les dossards peuvent déjà être\_retirés la veille de la course, le "
-      -
-        type: text
         marks:
           -
             type: strike
-        text: 'vendredi 12 décembre'
-      -
-        type: text
-        text: ",\_à partir de 19h30 jusqu'à 21h."
+        text: "Les dossards peuvent déjà être\_retirés la veille de la course, le vendredi 12 décembre,\_à partir de 19h30 jusqu'à 21h."
   -
     type: heading
     attrs:

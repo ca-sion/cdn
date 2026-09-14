@@ -4,7 +4,7 @@ blueprint: run
 title: Adaptée
 icon: 'noto:woman-in-manual-wheelchair-facing-right-medium-light-skin-tone'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1726076298
+updated_at: 1789426755
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -27,7 +27,7 @@ content:
     content:
       -
         type: text
-        text: 'Horaire : 13h42'
+        text: 'Horaire : 13h05'
   -
     type: paragraph
     attrs:
@@ -35,5 +35,5 @@ content:
     content:
       -
         type: text
-        text: 'Remise des prix : 14h'
+        text: 'Remise des prix : 13h30'
 ---

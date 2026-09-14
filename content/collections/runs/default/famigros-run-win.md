@@ -4,7 +4,7 @@ blueprint: run
 title: 'FAMIGROS RUN & WIN'
 icon: 'twemoji:family-woman-girl'
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1726232350
+updated_at: 1789426595
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -138,7 +138,7 @@ content:
     content:
       -
         type: text
-        text: 'Gains tirés au sort (2024) :'
+        text: 'Gains tirés au sort :'
   -
     type: bulletList
     content:
