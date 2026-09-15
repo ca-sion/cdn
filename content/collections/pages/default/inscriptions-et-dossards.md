@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1789428914
+updated_at: 1789499819
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -93,7 +93,7 @@ content:
                       rel: null
                       target: _blank
                       title: null
-                text: 'ce formulaire'
+                text: 'ce formulaire en ligne'
               -
                 type: text
                 text: .
@@ -124,7 +124,7 @@ content:
                       rel: null
                       target: _blank
                       title: null
-                text: 'ce formulaire'
+                text: 'ce formulaire en ligne'
               -
                 type: text
                 text: .
@@ -155,7 +155,7 @@ content:
                       rel: null
                       target: _blank
                       title: null
-                text: 'ce formulaire'
+                text: 'ce formulaire en ligne'
               -
                 type: text
                 text: .
@@ -186,7 +186,7 @@ content:
                       rel: null
                       target: _blank
                       title: null
-                text: 'ce formulaire'
+                text: 'ce formulaire en ligne'
               -
                 type: text
                 text: .
@@ -411,7 +411,7 @@ content:
                 text: '19h30 à 21h00'
               -
                 type: text
-                text: ' (à préciser)'
+                text: ' (horaires à préciser)'
       -
         type: listItem
         content:
@@ -431,7 +431,7 @@ content:
                 text: 'dès 9h30 '
               -
                 type: text
-                text: '(à préciser).'
+                text: '(horaires à préciser).'
       -
         type: listItem
         content:
