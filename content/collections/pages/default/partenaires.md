@@ -4,7 +4,7 @@ blueprint: page
 title: Partenaires
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1778510450
+updated_at: 1789430907
 template: partners/index
 use_meta_keywords: false
 no_index_page: false
@@ -13,6 +13,29 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 content:
+  -
+    type: heading
+    attrs:
+      textAlign: left
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Nos généreux donateurs'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: '300 CHF - Sonepar Suisse SA'
   -
     type: heading
     attrs:
@@ -90,4 +113,8 @@ content:
               target: null
               title: null
         text: president@coursedenoel.ch
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
 ---
