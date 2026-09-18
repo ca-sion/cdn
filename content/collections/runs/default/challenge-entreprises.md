@@ -361,9 +361,7 @@ content:
                 marks:
                   -
                     type: bold
-                  -
-                    type: strike
-                text: '7 novembre 2025'
+                text: '6 novembre 2026'
       -
         type: listItem
         content:
