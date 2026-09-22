@@ -422,7 +422,7 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-texner-2025.pdf'
+                      href: ''
                       rel: null
                       target: _blank
                       title: null

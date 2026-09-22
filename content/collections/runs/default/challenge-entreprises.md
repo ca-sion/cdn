@@ -4,7 +4,7 @@ blueprint: run
 title: 'Challenge entreprises'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1789428507
+updated_at: 1790065851
 icon: 'noto:running-shirt'
 use_meta_keywords: false
 no_index_page: false
@@ -88,8 +88,8 @@ content:
         type: text
         marks:
           -
-            type: strike
-        text: '7 novembre'
+            type: text
+        text: '11 novembre'
       -
         type: text
         text: " ! Plus d'information en bas de page."
@@ -361,7 +361,7 @@ content:
                 marks:
                   -
                     type: bold
-                text: '6 novembre 2026'
+                text: '11 novembre 2026'
       -
         type: listItem
         content:
@@ -379,12 +379,10 @@ content:
                   -
                     type: link
                     attrs:
-                      href: 'statamic://asset::assets::documents/fo-texner-2025.pdf'
+                      href: 'statamic://asset::assets::documents/fo-texner-2026.pdf'
                       rel: null
                       target: _blank
                       title: null
-                  -
-                    type: strike
                 text: 'Visuel et bon de commande'
       -
         type: listItem
