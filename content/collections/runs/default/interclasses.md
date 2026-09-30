@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1789428684
+updated_at: 1790764049
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -48,7 +48,7 @@ content:
             content:
               -
                 type: text
-                text: "Une équipe se compose d'au moins 8 élèves de la même classe et du même centre scolaire, dont au moins 3 filles. Il n'y a pas de limite maximale."
+                text: "Une équipe se compose d'au moins 8 élèves de la même classe et du même centre scolaire, dont au minimum 3 filles. La limite maximale est de 25 élèves."
       -
         type: listItem
         content:
@@ -59,7 +59,7 @@ content:
             content:
               -
                 type: text
-                text: 'Le classement est établi en additionnant les 8 meilleurs résultats chronométriques de chaque classe, les résultats des 3 meilleures filles devant obligatoirement être pris en compte.'
+                text: 'Le classement est établi en additionnant les 8 meilleurs résultats chronométriques de chaque classe, incluant obligatoirement au moins les résultats des 3 meilleures filles.'
   -
     type: heading
     attrs:
@@ -132,12 +132,12 @@ content:
             content:
               -
                 type: text
-                text: 'IBAN CH63 0026 5265 6542 4140 D / Centre athlétique de Sion, Course de Noël /Case postale 4057, 1950 Sion'
+                text: 'IBAN CH20 0026 5265 1556 7201 T / Course de Noël, Case postale 4057, 1950 Sion'
               -
                 type: hardBreak
               -
                 type: text
-                text: "Indiquer : centre scolaire, niveau, nom du professeur principal et de l'accompagnateur."
+                text: 'Indiquer : centre scolaire, niveau, nom du titulaire.'
   -
     type: heading
     attrs:
@@ -176,12 +176,7 @@ content:
         type: hardBreak
       -
         type: text
-        text: 'Attention : les classes à deux niveaux doivent être inscrites dans la catégorie supérieure. Par exemple : 3H + 4H = 4H.'
-      -
-        type: hardBreak
-      -
-        type: text
-        text: "L'inscription des élèves doit obligatoirement être effectuée par les enseignants titulaires, qui doivent suivre les instructions présentes dans "
+        text: 'Sur '
       -
         type: text
         marks:
@@ -192,10 +187,48 @@ content:
               rel: null
               target: _blank
               title: null
-        text: "ce formulaire d'inscription"
+          -
+            type: bold
+        text: 'ce formulaire en ligne'
       -
         type: text
         text: .
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Passé ce délai, aucune inscription de classe ne sera acceptée.'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Les classes à deux niveaux doivent être inscrites dans la catégorie supérieure. Par exemple : 3H + 4H = 4H.'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: "L'inscription des élèves doit obligatoirement être effectuée par les titulaires, qui doivent suivre les instructions présentes dans le formulaire en ligne."
   -
     type: heading
     attrs:
@@ -221,17 +254,6 @@ content:
             content:
               -
                 type: text
-                text: 'Prix spécial pour chaque participant·e ayant terminé la course pour les trois meilleures classes dans chaque catégorie.'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
                 text: "Prix souvenir (médaille) pour chaque élève ayant franchi la ligne d'arrivée."
       -
         type: listItem
@@ -243,16 +265,7 @@ content:
             content:
               -
                 type: text
-                text: "Prix-souvenir cadeau spécial du\_25"
-              -
-                type: text
-                marks:
-                  -
-                    type: superscript
-                text: e
-              -
-                type: text
-                text: ' "Concours interclasses" remis à chaque élève ayant franchi la ligne d''arrivée.'
+                text: 'Prix spécial supplémentaire pour chaque participant·e ayant terminé la course pour les trois meilleures classes dans chaque catégorie.'
   -
     type: heading
     attrs:
@@ -905,7 +918,7 @@ content:
             content:
               -
                 type: text
-                text: 'Le vendredi 11 décembre 2026, à 17h30. Rendez-vous devant le « Catherine », au bout de la place de la Planta.'
+                text: 'Le vendredi 11 décembre 2026, à 17h30. Rendez-vous devant la « Catherine », au nord de la Place de la Planta.'
   -
     type: heading
     attrs:
@@ -925,7 +938,7 @@ content:
     content:
       -
         type: text
-        text: "Les dossards doivent être retirés à partir de 10h30 par l'accompagnateur responsable de la classe dans la salle de sport du Collège de la Planta, situé à droite en haut de l'avenue de la Gare (Aula de la Planta)."
+        text: "Les dossards doivent être retirés à partir de 9h30 par l'accompagnateur responsable à la salle de sport du Collège de la Planta, situé à droite en haut de l'avenue de la Gare (Aula de la Planta)."
   -
     type: paragraph
     attrs:
@@ -965,7 +978,7 @@ content:
     content:
       -
         type: text
-        text: 'Informations supplémentaires pour les enseignants titulaires'
+        text: 'Informations supplémentaires pour les titulaires'
   -
     type: bulletList
     content:
@@ -979,7 +992,7 @@ content:
             content:
               -
                 type: text
-                text: "L'inscription doit être effectuée exclusivement par le professeur principal."
+                text: "L'inscription doit être effectuée exclusivement par les titulaires."
       -
         type: listItem
         content:
@@ -990,7 +1003,7 @@ content:
             content:
               -
                 type: text
-                text: 'Les professeurs principaux des classes dûment inscrites recevront les dernières instructions par e-mail avant le 12 décembre.'
+                text: 'Les titulaires des classes dûment inscrites recevront les dernières instructions par e-mail avant le 12 décembre.'
       -
         type: listItem
         content:
@@ -1001,5 +1014,5 @@ content:
             content:
               -
                 type: text
-                text: "S'ils n'accompagnent pas personnellement leurs élèves le jour de la course, ils doivent transmettre ces dernières instructions à la personne responsable qui les remplace le jour de la course."
+                text: "S'ils n'accompagnent pas personnellement leurs élèves le jour de la course, les titulaires doivent transmettre ces dernières instructions à la personne responsable qui les remplace le jour de la course."
 ---
