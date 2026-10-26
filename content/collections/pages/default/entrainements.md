@@ -3,7 +3,7 @@ id: 9c0d8742-133d-42f7-a0cb-5be5f45232e5
 blueprint: page
 title: Entraînements
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1770803669
+updated_at: 1793022169
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -53,10 +53,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: '11 novembre'
+                text: '10 novembre'
       -
         type: listItem
         content:
@@ -67,10 +64,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: '18 novembre'
+                text: '17 novembre'
       -
         type: listItem
         content:
@@ -81,10 +75,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: '25 novembre'
+                text: '24 novembre'
       -
         type: listItem
         content:
@@ -95,10 +86,7 @@ content:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: strike
-                text: '2 décembre'
+                text: '1er décembre'
   -
     type: paragraph
     attrs:
@@ -106,7 +94,7 @@ content:
     content:
       -
         type: text
-        text: "Rendez-vous à 18h30 à l'Ancien Stand de Sion."
+        text: "Rendez-vous à 18h30 à l'Ancien Stand de Sion. Durée : 1h."
   -
     type: paragraph
     attrs:
