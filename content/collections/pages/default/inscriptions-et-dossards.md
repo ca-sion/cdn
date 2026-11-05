@@ -4,7 +4,7 @@ blueprint: page
 title: 'Inscriptions et dossards'
 author: 668b8e8a-6f34-46cf-8776-6e9724209df3
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1789499819
+updated_at: 1793882560
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -402,16 +402,7 @@ content:
             content:
               -
                 type: text
-                text: 'Vendredi 11 décembre 2026, de '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: '19h30 à 21h00'
-              -
-                type: text
-                text: ' (horaires à préciser)'
+                text: 'Vendredi 11 décembre 2026, de 18h15 à 20h30'
       -
         type: listItem
         content:
@@ -422,16 +413,7 @@ content:
             content:
               -
                 type: text
-                text: 'Samedi 12 décembre 2026, '
-              -
-                type: text
-                marks:
-                  -
-                    type: strike
-                text: 'dès 9h30 '
-              -
-                type: text
-                text: '(horaires à préciser).'
+                text: 'Samedi 12 décembre 2026, dès 9h.'
       -
         type: listItem
         content:

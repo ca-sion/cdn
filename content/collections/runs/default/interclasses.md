@@ -3,7 +3,7 @@ id: ecad7304-7aa8-4778-97db-8596e9596fee
 blueprint: run
 title: Interclasses
 updated_by: 668b8e8a-6f34-46cf-8776-6e9724209df3
-updated_at: 1790764049
+updated_at: 1793882513
 icon: 'noto:school-backpack'
 use_meta_keywords: false
 no_index_page: false
@@ -946,10 +946,7 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: strike
-        text: "Les dossards peuvent déjà être\_retirés la veille de la course, le vendredi 11 décembre,\_à partir de 19h30 jusqu'à 21h."
+        text: "Les dossards peuvent déjà être\_retirés la veille de la course, le vendredi 11 décembre,\_à partir de 18h15 jusqu'à 20h30."
   -
     type: heading
     attrs:
